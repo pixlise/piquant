@@ -70,3 +70,8 @@ More about the format can be found at https://developers.google.com/protocol-buf
 
 To start Piquant faster, it will be able to read from the binary format used by Pixlise, as the overhead of
 downloading 1000's of individual MSA files is quite large.
+
+
+## Further Reading and Help
+
+Check out the [Piquant Wiki](https://github.com/pixlise/piquant/wiki)
