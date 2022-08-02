@@ -1,0 +1,40 @@
+#FORMAT      : EMSA/MAS Spectral Data File
+#VERSION     : 1.0
+#TITLE       : Copied from PIXL_EM_GEB_20kVair_Oct2018.xsp for EMI/EMC tests (also PIXL EM in air)
+#COMMENT     : 2 hr.  PIXL best model for current FM configuration (side window tube, 32 mm standoff, 2 det)
+#COMMENT     : Changed tube voltage to 20 kV and path to Air for EM Geometry/Elemental Baseline Tests
+#COMMENT     : Also changed tube Be window from 0.150 to 0.250 to account for window in optic
+#COMMENT     : Solid angle set for 100% on BHVO-2G for Detector A (Note light elements missing)
+#DATE        : 12/11/2018
+#TIME        : 10:30:00 PM
+#OWNER       : Tim
+#NPOINTS     :  0
+#NCOLUMNS    : 1
+#XUNITS      : eV
+#YUNITS      : COUNTS
+#DATATYPE    : Y
+#XPERCHAN    : 8.0
+#OFFSET      : 0
+#LIVETIME    : 7200
+#SIGNALTYPE  : XRF
+anode_z:  45
+BEAMKV:  20.00
+tube_inc_angle:  30
+tube_takeoff_angle:  70
+tube_be_window:  0.250
+tube_current:  0.02
+filter_z:  1
+filter_thick:  0
+excit_angle:  90.00
+emerg_angle:  70.00
+solid_angle:  0.0000192
+path_type:  5
+inc_path_length:  3.0
+emerg_path_length:  3.2
+window_type:  2
+window_thick:  0
+detector_type: 2
+minimum_energy:  900
+optic_type:  3
+#SPECTRUM
+#ENDOFDATA

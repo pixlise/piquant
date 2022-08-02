@@ -1,0 +1,241 @@
+
+
+------------------------------------------------------
+PIQUANT_GUI  Log file entry   Local time: 2020-05-14 11:51:03.703637
+Command line arguments: ['C:\\Users\\Tim\\Documents\\PIQUANT_V260_Windows_Mar2020\\PIQUANT_CommandLine.exe', 'sum', 'C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/PIXL_EM_EMI_20kVair_Dec2018.xsp', 'C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/CalibrationFile_Dummy.txt', 'C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/msa_file_list_DetA_BHVO.txt', 'Si_K K_K P_K Ca_K Ti_K Cr_K Mn_K Fe_K Sr_K Ar_I', 'C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Output_files_PIQUANT_test_data_May2020/Bulk_sum_and_max_value_Plot_PIQUANT_test_data_May2020.csv', 'C:\\Users\\Tim\\AppData\\Local\\Temp\\tmp8z8spug6']
+-----------------------------------------------------------------
+PIQUANT   Quantitative X-ray Fluorescence Analysis
+Written for PIXL, the Planetary Instrument for X-ray Lithochemistry
+2.6.310-compiling   W. T. Elam   APL/UW
+Local time:  2020-05-14 11:51:01
+
+Configuration read from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/PIXL_EM_EMI_20kVair_Dec2018.xsp
+
+Element list: Si_K K_K P_K Ca_K Ti_K Cr_K Mn_K Fe_K Sr_K Ar_I
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634637989_000001C5_000007.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.51    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 117757
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638022_000001C5_000008.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.48    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 117874
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638054_000001C5_000009.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.52    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 117352
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638087_000001C5_000010.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.49    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 117314
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638120_000001C5_000011.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.51    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 117578
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638151_000001C5_000012.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.44    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 117297
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638184_000001C5_000013.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.47    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 117495
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638273_000001C5_000014.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.50    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 117388
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638305_000001C5_000015.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.51    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 117521
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638338_000001C5_000016.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.48    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 116485
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638369_000001C5_000017.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.51    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 116803
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638402_000001C5_000018.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.49    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 116687
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638435_000001C5_000019.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.53    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 117178
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638467_000001C5_000020.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.48    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 116579
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638556_000001C5_000021.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.51    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 117028
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638588_000001C5_000022.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.59    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 117362
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638620_000001C5_000023.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.55    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 117105
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638653_000001C5_000024.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.55    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 116462
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638685_000001C5_000025.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.62    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 116614
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638718_000001C5_000026.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.59    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 116688
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638750_000001C5_000027.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 14.01    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 146171
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638834_000001C5_000028.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.59    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 116862
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638867_000001C5_000029.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.57    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 116960
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638899_000001C5_000030.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.54    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 116607
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Data_files_Pucks_20200210_200210210814/Normal_A_0634638932_000001C5_000031.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 16.58    energy calibration   eV start = 0.0  eV/ch = 0.0000    total counts = 116451
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from configuration file    eV start = 0.0  eV/ch = 8.0000
+
+
+
+Reading calibration file from C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/CalibrationFile_Dummy.txt
+Calibration file read OK, 24 element calibration factors.
+Final element calibration factors and ECF standard deviations for this unknown (overall ECF is 1.0000, overall ECF relative error is 0.0000 %)
+   Element , ECF, Total weight, Fit Error, Std Dev, Given uncertainty, Total ECF uncertainty (included in total error, larger of fit error or SD + certificate, all errors are relative percent)
+    Si   1.0000     1.00   0.0000   0.0000   0.0000   0.0000
+     K   1.0000     1.00   0.0000   0.0000   0.0000   0.0000
+     P   1.0000     1.00   0.0000   0.0000   0.0000   0.0000
+    Ca   1.0000     1.00   0.0000   0.0000   0.0000   0.0000
+    Ti   1.0000     1.00   0.0000   0.0000   0.0000   0.0000
+    Cr   1.0000     1.00   0.0000   0.0000   0.0000   0.0000
+    Mn   1.0000     1.00   0.0000   0.0000   0.0000   0.0000
+    Fe   1.0000     1.00   0.0000   0.0000   0.0000   0.0000
+    Sr   1.0000     1.00   0.0000   0.0000   0.0000   0.0000
+
+
+
+Fit results after 14 iterations, reduced chi sq = 4.12         live time 410.65 sec.
+Final energy calibration (eV):   eV start = -16.0  eV/ch = 7.9992  detector resolution (eV): 181  (at 5984 eV)  fano = 0.136
+
+XRS L5 requirements info: 
+  L5-XRS-03    total count rate (1.00 keV to 7.25 keV) = 6487 cps (correct energy range)
+  L5-XRS-10    Si intensity = 7200, Fe intensity = 1505422,   Si/Fe ratio = 0.00
+
+Fitted elements
+      Si   33.6548 %      Si_K   int   7200.3  coeff   0.9999   re_c      1.7%   tot_err      1.7%
+       K    0.1014 %       K_K   int   2026.8  coeff   1.0005   re_c      8.5%   tot_err      8.5%
+       P    0.0000 %       P_K   int      0.0  coeff  -0.0900   not included
+      Ca   15.6695 %      Ca_K   int 483313.9  coeff   1.0000   re_c      0.2%   tot_err      0.2%
+      Ti    5.6425 %      Ti_K   int 241245.4  coeff   1.0000   re_c      0.2%   tot_err      0.2%
+      Cr    0.2338 %      Cr_K   int  14319.9  coeff   1.0000   re_c      1.5%   tot_err      1.5%
+      Mn    0.3263 %      Mn_K   int  17391.3  coeff   1.0000   re_c      1.4%   tot_err      1.4%
+      Fe   29.4126 %      Fe_K   int 1505421.9  coeff   1.0000   re_c      0.1%   tot_err      0.1%
+      Sr    0.9591 %      Sr_K   int   2053.7  coeff   1.0001   re_c      4.3%   tot_err      4.3%
+Matrix elements
+    O   61.4085 %     (   61.41 % from quantified-element oxides)
+
+    Element sum 147.41 %     energy correction offset -16.03 eV   slope change -0.01 %
+
+Other fit components
+   0      Ar_K  int  -6148.1  coeff  -2.2633   not included
+   1       bkg  int 592786.9  coeff   1.0260   re_c     0.17%
+   9      Sr_L  int    955.4  coeff   4.3911   re_c    12.54%
+   12  Rh_L_coh  int   8413.6  coeff   1.4038   re_c     8.80%
+   13  Rh_L_inc  int  62994.5  coeff 242.9382   re_c     1.24%
+
+Writing plot to file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Output_files_PIQUANT_test_data_May2020/Bulk_sum_and_max_value_Plot_PIQUANT_test_data_May2020.csv      4096 channels.
+
+Execution finished,   Duration  2.18 secs. 
+
+

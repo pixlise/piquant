@@ -1,0 +1,8 @@
+build/*
+test-data/output/*
+__pycache__/
+docker/run/Piquant
+src/data-formats/*
+testenv/
+test/output/*
+src/obj

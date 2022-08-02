@@ -1,0 +1,286 @@
+
+
+------------------------------------------------------
+PIQUANT_GUI  Log file entry   Local time: 2020-05-14 11:56:22.709276
+Command line arguments: ['C:\\Users\\Tim\\Documents\\PIQUANT_V260_Windows_Mar2020\\PIQUANT_CommandLine.exe', 'cali', 'C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Breadboard_Configuration_2019_01_14_2020.msa', 'C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Standards_Input_3_glasses_new_BB_01_08_2020.csv', 'C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Output_files_PIQUANT_test_data_May2020/Calibrate_calibration_file_PIQUANT_test_data_May2020.csv', 'Ar_I', 'C:\\Users\\Tim\\AppData\\Local\\Temp\\tmpv8tlqfh3']
+-----------------------------------------------------------------
+PIQUANT   Quantitative X-ray Fluorescence Analysis
+Written for PIXL, the Planetary Instrument for X-ray Lithochemistry
+2.6.310-compiling   W. T. Elam   APL/UW
+Local time:  2020-05-14 11:55:15
+
+Configuration read from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Breadboard_Configuration_2019_01_14_2020.msa
+
+Reading standard information from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Standards_Input_3_glasses_new_BB_01_08_2020.csv
+Standards file read OK, entries for 3 standards read in.
+
+Element list: Ar_I
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Calibration_box_BHVO-2G_28kV_230uA_03_28_2019_bulk_sum.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 13973.40    energy calibration   eV start = -15.3  eV/ch = 10.0449    total counts = 118401344
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Applying linear energy correction at low energy:    offset 11   slope -3  (eV per keV, stops at 3201 ).
+
+
+
+Fit results after 20 iterations, reduced chi sq = 144.70         live time 13973.40 sec.
+Final energy calibration (eV):   eV start = -16.7  eV/ch = 10.0472  detector resolution (eV): 134  (at 5984 eV)  fano = 0.117
+
+XRS L5 requirements info: 
+  L5-XRS-03    total count rate (1.00 keV to 7.25 keV) = 7935 cps (correct energy range)
+  L5-XRS-10    Si intensity = 7591378, Fe intensity = 56457768,   Si/Fe ratio = 0.13
+
+Fitted elements
+      Al    7.1700 %      Al_K   int 935228.4  coeff   0.7675   re_c      0.1%   tot_err      0.1%
+      Ca    8.1800 %      Ca_K   int 25740830.0  coeff   0.9252   re_c      0.0%   tot_err      0.0%
+      Fe    8.3700 %      Fe_K   int 56457768.0  coeff   1.0119   re_c      0.0%   tot_err      0.0%
+       K    0.4300 %       K_K   int 815986.6  coeff   0.8259   re_c      0.1%   tot_err      0.1%
+      Mg    4.3600 %      Mg_K   int 127794.6  coeff   0.5324   re_c      0.3%   tot_err      0.3%
+      Na    1.6200 %      Na_K   int      0.0  coeff  -0.0019   not included
+       P    0.1200 %       P_K   int  44826.6  coeff   0.6874   re_c      0.9%   tot_err      0.9%
+      Si   23.3000 %      Si_K   int 7591378.5  coeff   0.8069   re_c      0.0%   tot_err      0.0%
+      Ti    1.6500 %      Ti_K   int 7249822.5  coeff   0.9468   re_c      0.0%   tot_err      0.0%
+      Ba    0.0100 %      Ba_L   int 177475.3  coeff   7.2616   re_c      1.3%   tot_err      1.3%
+      Cr    0.0300 %      Cr_K   int 212995.1  coeff   1.1228   re_c      0.4%   tot_err      0.4%
+      Ni    0.0100 %      Ni_K   int  71810.3  coeff   1.3875   re_c      1.1%   tot_err      1.1%
+      Sr    0.0400 %      Sr_K   int  23409.8  coeff   1.0872   re_c      1.7%   tot_err      1.7%
+       V    0.0300 %       V_K   int 141274.8  coeff   0.8893   re_c      1.1%   tot_err      1.1%
+      Zn    0.0100 %      Zn_K   int  33279.1  coeff   0.7952   re_c      2.2%   tot_err      2.2%
+      Mn    0.1300 %      Mn_K   int 802233.1  coeff   0.9458   re_c      0.2%   tot_err      0.2%
+      Zr    0.0200 %      Zr_K   int   3377.3  coeff   0.6332   re_c      8.8%   tot_err      8.8%
+Matrix elements
+    O   44.5656 %     (   44.57 % from quantified-element oxides)
+
+    Element sum 100.05 %     energy correction offset -1.42 eV   slope change 0.02 %
+
+Other fit components
+   0      Ar_K  int  90185.9  coeff   7.9036   re_c     0.95%
+   1       bkg  int 15743215.0  coeff   1.0579   re_c     0.03%
+   14      Zr_L  int -14113.6  coeff  -1.6748   not included
+   15      Sr_L  int 188084.5  coeff  15.6840   re_c     0.72%
+   20      Zn_L  int    287.8  coeff   4.7435   re_c    51.83%
+   21      Ba_M  int  -1045.3  coeff -1043.7925   not included
+   23      Ni_L  int   5807.1  coeff 754.7087   re_c     1.55%
+   24      Fe_L  int   2993.9  coeff  11.0208   re_c     2.32%
+   25      Mn_L  int    905.2  coeff 2042.4186   re_c     8.78%
+   26      Cr_L  int    732.6  coeff 121001.4531   re_c    11.00%
+   27       V_L  int      0.0  coeff   1.0000   re_c     0.00%
+   28      Ti_L  int      0.0  coeff   1.0000   re_c     0.00%
+   29       O_K  int    262.0  coeff 270.1044   re_c    13.12%
+   30  Rh_K_coh  int   7032.0  coeff   1.3689   re_c     2.14%
+   31  Rh_L_coh  int 752363.2  coeff   0.4925   re_c     0.42%
+   32  Rh_M_coh  int      0.0  coeff   1.0000   re_c     0.00%
+   33  Rh_K_inc  int  18433.3  coeff   0.8839   re_c     1.88%
+   34  Rh_L_inc  int 573307.6  coeff   7.1291   re_c     0.52%
+   35  Rh_M_inc  int      0.0  coeff   1.0000   re_c     0.00%
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Calibration_box_BCR-2G_28kV_230uA_03_28_2019_bulk_sum.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 13958.00    energy calibration   eV start = -17.1  eV/ch = 10.0493    total counts = 123826368
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Applying linear energy correction at low energy:    offset 11   slope -3  (eV per keV, stops at 3201 ).
+
+
+
+Fit results after 23 iterations, reduced chi sq = 446.68         live time 13958.00 sec.
+Final energy calibration (eV):   eV start = -17.2  eV/ch = 10.0495  detector resolution (eV): 134  (at 5984 eV)  fano = 0.120
+
+XRS L5 requirements info: 
+  L5-XRS-03    total count rate (1.00 keV to 7.25 keV) = 8345 cps (correct energy range)
+  L5-XRS-10    Si intensity = 10012566, Fe intensity = 65794176,   Si/Fe ratio = 0.15
+
+Fitted elements
+      Ca    5.0900 %      Ca_K   int 15946524.0  coeff   0.9628   re_c      0.0%   tot_err      0.0%
+      Fe    9.6500 %      Fe_K   int 65794176.0  coeff   1.0496   re_c      0.0%   tot_err      0.0%
+       K    1.4900 %       K_K   int 3195724.0  coeff   0.9621   re_c      0.1%   tot_err      0.1%
+      Mg    2.1600 %      Mg_K   int  88777.3  coeff   0.8018   re_c      0.4%   tot_err      0.4%
+      Na    2.3400 %      Na_K   int   6014.1  coeff   0.2733   re_c      6.3%   tot_err      6.3%
+       P    0.1500 %       P_K   int  73042.0  coeff   0.9148   re_c      0.6%   tot_err      0.6%
+      Si   25.3000 %      Si_K   int 10012566.0  coeff   0.8832   re_c      0.0%   tot_err      0.0%
+      Ti    1.3500 %      Ti_K   int 6439983.5  coeff   1.0128   re_c      0.0%   tot_err      0.0%
+      Ba    0.0683 %      Ba_L   int 291272.4  coeff   1.7338   re_c      0.8%   tot_err      0.8%
+      Ce    0.0053 %      Ce_L   int      0.0  coeff   1.0000   not included
+      Co    0.0037 %      Co_K   int      0.0  coeff   1.0000   not included
+      Cr    0.0018 %      Cr_K   int      0.0  coeff   1.0000   not included
+      Eu    0.0002 %      Eu_L   int      0.0  coeff   1.0000   not included
+      Ga    0.0023 %      Ga_K   int      0.0  coeff   1.0000   not included
+      Gd    0.0007 %      Gd_L   int      0.0  coeff   1.0000   not included
+      La    0.0025 %      La_L   int      0.0  coeff   1.0000   not included
+      Mn    0.1520 %      Mn_K   int 995572.8  coeff   1.0125   re_c      0.1%   tot_err      0.1%
+      Mo    0.0248 %      Mo_K   int   2758.9  coeff   0.9649   re_c      7.9%   tot_err      7.9%
+      Nd    0.0028 %      Nd_L   int      0.0  coeff   1.0000   not included
+      Rb    0.0048 %      Rb_K   int   7529.9  coeff   2.2955   re_c      5.6%   tot_err      5.6%
+      Sc    0.0033 %      Sc_K   int      0.0  coeff   1.0000   not included
+      Sr    0.0346 %      Sr_K   int  19710.2  coeff   1.1720   re_c      2.0%   tot_err      2.0%
+      Th    0.0006 %      Th_L   int      0.0  coeff   1.0000   not included
+       U    0.0002 %       U_L   int      0.0  coeff   1.0000   not included
+       V    0.0416 %       V_K   int 232588.1  coeff   1.0488   re_c      0.6%   tot_err      0.6%
+       Y    0.0037 %       Y_K   int      0.0  coeff   1.0000   not included
+      Yb    0.0003 %      Yb_L   int      0.0  coeff   1.0000   not included
+      Zn    0.0127 %      Zn_K   int  46846.1  coeff   0.9688   re_c      1.6%   tot_err      1.6%
+      Zr    0.0188 %      Zr_K   int   3690.9  coeff   0.8166   re_c      8.1%   tot_err      8.1%
+      Cs    0.0001 %      Cs_L   int      0.0  coeff   1.0000   not included
+      Cu    0.0019 %      Cu_K   int      0.0  coeff   1.0000   not included
+       F    0.0440 %       F_K   int      0.0  coeff   1.0000   not included
+      Hf    0.0005 %      Hf_L   int      0.0  coeff   1.0000   not included
+      Ho    0.0001 %      Ho_L   int      0.0  coeff   1.0000   not included
+      Lu    0.0001 %      Lu_L   int      0.0  coeff   1.0000   not included
+      Pb    0.0011 %      Pb_L   int      0.0  coeff   1.0000   not included
+      Pr    0.0007 %      Pr_L   int      0.0  coeff   1.0000   not included
+      Sm    0.0007 %      Sm_L   int      0.0  coeff   1.0000   not included
+      Tb    0.0001 %      Tb_L   int      0.0  coeff   1.0000   not included
+      Tm    0.0001 %      Tm_L   int      0.0  coeff   1.0000   not included
+Matrix elements
+   Li    0.0009 %
+    O   38.6408 %     (   38.64 % from quantified-element oxides)
+
+    Element sum 86.61 %     energy correction offset -0.06 eV   slope change 0.00 %
+
+Other fit components
+   0      Ar_K  int -25397.0  coeff  -2.2295   not included
+   1       bkg  int 16363829.0  coeff   1.0669   re_c     0.03%
+   33       U_M  int      0.0  coeff   1.0000   not included
+   35      Th_M  int      0.0  coeff   1.0000   not included
+   39      Pb_M  int      0.0  coeff   1.0000   not included
+   40      Mo_L  int   4267.7  coeff   0.2546   re_c     9.34%
+   41      Zr_L  int -18194.4  coeff  -2.3304   not included
+   42       Y_L  int      0.0  coeff   1.0000   not included
+   43      Hf_M  int      0.0  coeff   1.0000   not included
+   44      Lu_M  int      0.0  coeff   1.0000   not included
+   45      Sr_L  int 304542.4  coeff  27.2085   re_c     0.51%
+   46      Yb_M  int      0.0  coeff   1.0000   not included
+   48      Tm_M  int      0.0  coeff   1.0000   not included
+   49      Rb_L  int 759347.1  coeff 590.7941   re_c     0.45%
+   50      Ho_M  int      0.0  coeff   1.0000   not included
+   52      Tb_M  int      0.0  coeff   1.0000   not included
+   53      Gd_M  int      0.0  coeff   1.0000   not included
+   54      Eu_M  int      0.0  coeff   1.0000   not included
+   55      Sm_M  int      0.0  coeff   1.0000   not included
+   56      Nd_M  int      0.0  coeff   1.0000   not included
+   57      Pr_M  int      0.0  coeff   1.0000   not included
+   59      Ga_L  int      0.0  coeff   1.0000   not included
+   60      Ce_M  int      0.0  coeff   1.0000   not included
+   61      La_M  int      0.0  coeff   1.0000   not included
+   62      Zn_L  int   1055.6  coeff  14.4519   re_c    37.74%
+   63      Ba_M  int   -206.2  coeff -31.7201   not included
+   64      Cu_L  int      0.0  coeff   1.0000   not included
+   65      Cs_M  int      0.0  coeff   1.0000   not included
+   67      Co_L  int      0.0  coeff   1.0000   not included
+   68      Fe_L  int   3241.8  coeff  10.4556   re_c     2.12%
+   69      Mn_L  int   1467.7  coeff 2841.5349   re_c     3.77%
+   71      Cr_L  int      0.0  coeff   1.0000   not included
+   72       V_L  int      0.0  coeff   1.0000   re_c     0.00%
+   73      Ti_L  int      0.0  coeff   1.0000   re_c     0.00%
+   74       O_K  int    539.4  coeff 639.6484   re_c     4.64%
+   75  Rh_K_coh  int   7208.1  coeff   1.4592   re_c     2.10%
+   76  Rh_L_coh  int 689938.4  coeff   0.4462   re_c     0.45%
+   77  Rh_M_coh  int      0.0  coeff   1.0000   re_c     0.00%
+   78  Rh_K_inc  int  16310.7  coeff   0.8732   re_c     2.13%
+   79  Rh_L_inc  int 700581.1  coeff   8.9241   re_c     0.44%
+   80  Rh_M_inc  int      0.0  coeff   1.0000   re_c     0.00%
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Calibration_box_BIR-1G_28kV_230uA_03_28_2019_bulk_sum.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 13977.90    energy calibration   eV start = -16.7  eV/ch = 10.0491    total counts = 118893056
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Applying linear energy correction at low energy:    offset 11   slope -3  (eV per keV, stops at 3201 ).
+
+
+
+Fit results after 20 iterations, reduced chi sq = 156.50         live time 13977.90 sec.
+Final energy calibration (eV):   eV start = -16.4  eV/ch = 10.0488  detector resolution (eV): 134  (at 5984 eV)  fano = 0.115
+
+XRS L5 requirements info: 
+  L5-XRS-03    total count rate (1.00 keV to 7.25 keV) = 7954 cps (correct energy range)
+  L5-XRS-10    Si intensity = 9330511, Fe intensity = 53703508,   Si/Fe ratio = 0.17
+
+Fitted elements
+      Si   22.4200 %      Si_K   int 9330511.0  coeff   1.0582   re_c      0.0%   tot_err      0.0%
+      Al    8.2000 %      Al_K   int 1463996.8  coeff   1.0646   re_c      0.1%   tot_err      0.1%
+      Ca    9.5100 %      Ca_K   int 31752140.0  coeff   0.9772   re_c      0.0%   tot_err      0.0%
+      Mg    5.8500 %      Mg_K   int 272943.9  coeff   0.8321   re_c      0.2%   tot_err      0.2%
+      Fe    7.9000 %      Fe_K   int 53703508.0  coeff   1.0025   re_c      0.0%   tot_err      0.0%
+      Na    1.3500 %      Na_K   int      0.0  coeff  -0.0618   not included
+       K    0.0300 %       K_K   int      0.0  coeff  -0.1027   not included
+      Mn    0.1400 %      Mn_K   int 854912.8  coeff   0.9221   re_c      0.2%   tot_err      0.2%
+       P    0.0100 %       P_K   int      0.0  coeff  -0.0999   not included
+      Ti    0.5800 %      Ti_K   int 2647471.0  coeff   1.0001   re_c      0.1%   tot_err      0.1%
+      Cu    0.0125 %      Cu_K   int  51679.6  coeff   0.8691   re_c      1.5%   tot_err      1.5%
+      Dy    0.0004 %      Dy_L   int      0.0  coeff   1.0000   not included
+      Ce    0.0002 %      Ce_L   int      0.0  coeff   1.0000   not included
+      Co    0.0052 %      Co_K   int      0.0  coeff   1.0000   not included
+      Cr    0.0370 %      Cr_K   int 288742.9  coeff   1.2167   re_c      0.3%   tot_err      0.3%
+      Eu    0.0000 %      Eu_L   int      0.0  coeff   1.0000   not included
+      Gd    0.0002 %      Gd_L   int      0.0  coeff   1.0000   not included
+      Hf    0.0001 %      Hf_L   int      0.0  coeff   1.0000   not included
+      Nd    0.0002 %      Nd_L   int      0.0  coeff   1.0000   not included
+      Ni    0.0170 %      Ni_K   int  99000.0  coeff   1.0945   re_c      0.8%   tot_err      0.8%
+      La    0.0001 %      La_L   int      0.0  coeff   1.0000   not included
+      Sc    0.0044 %      Sc_K   int      0.0  coeff   1.0000   not included
+      Sr    0.0110 %      Sr_K   int      0.0  coeff  -0.1143   not included
+       V    0.0310 %       V_K   int 174763.2  coeff   1.0762   re_c      0.6%   tot_err      0.6%
+       Y    0.0016 %       Y_K   int      0.0  coeff  -9.5094   not included
+      Yb    0.0002 %      Yb_L   int      0.0  coeff   1.0000   not included
+      Zn    0.0070 %      Zn_K   int  21357.1  coeff   0.7087   re_c      3.4%   tot_err      3.4%
+      Zr    0.0018 %      Zr_K   int      0.0  coeff  -8.8718   not included
+      As    0.0000 %      As_K   int      0.0  coeff   1.0000   not included
+      Ba    0.0007 %      Ba_L   int      0.0  coeff   1.0000   not included
+      Cl    0.0026 %      Cl_K   int 124829.6  coeff  35.3490   re_c      1.0%   tot_err      1.0%
+       F    0.0044 %       F_K   int      0.0  coeff   1.0000   not included
+      Ga    0.0016 %      Ga_K   int      0.0  coeff   1.0000   not included
+      Lu    0.0000 %      Lu_L   int      0.0  coeff   1.0000   not included
+      Nb    0.0001 %      Nb_K   int      0.0  coeff   1.0000   not included
+      Pb    0.0003 %      Pb_L   int      0.0  coeff   1.0000   not included
+      Sb    0.0001 %      Sb_L   int      0.0  coeff   1.0000   not included
+      Sm    0.0001 %      Sm_L   int      0.0  coeff   1.0000   not included
+Matrix elements
+   Li    0.0004 %
+    B    0.0000 %
+   Be    0.0001 %
+    O   44.7968 %     (   44.80 % from quantified-element oxides)
+
+    Element sum 100.93 %     energy correction offset 0.28 eV   slope change -0.00 %
+
+Other fit components
+   0      Ar_K  int -10835.3  coeff  -0.9523   not included
+   1       bkg  int 15804804.0  coeff   1.0602   re_c     0.03%
+   33      Pb_M  int      0.0  coeff   1.0000   not included
+   35      Nb_L  int      0.0  coeff   1.0000   not included
+   36      Zr_L  int -12358.6  coeff -16.3221   not included
+   37       Y_L  int -26937.5  coeff -54.7494   not included
+   38      Hf_M  int      0.0  coeff   1.0000   not included
+   39      Lu_M  int      0.0  coeff   1.0000   not included
+   40      Sr_L  int 213277.0  coeff  65.9974   re_c     0.70%
+   41      Yb_M  int      0.0  coeff   1.0000   not included
+   43      Dy_M  int      0.0  coeff   1.0000   not included
+   45      Gd_M  int      0.0  coeff   1.0000   not included
+   46      Eu_M  int      0.0  coeff   1.0000   not included
+   48      Sm_M  int      0.0  coeff   1.0000   not included
+   49      As_L  int      0.0  coeff   1.0000   not included
+   50      Nd_M  int      0.0  coeff   1.0000   not included
+   52      Ga_L  int      0.0  coeff   1.0000   not included
+   53      Ce_M  int      0.0  coeff   1.0000   not included
+   54      La_M  int      0.0  coeff   1.0000   not included
+   55      Zn_L  int   -237.5  coeff  -5.5099   not included
+   56      Ba_M  int      0.0  coeff   1.0000   not included
+   57      Cu_L  int  -4144.2  coeff -127.1236   not included
+   59      Ni_L  int   5114.1  coeff 385.5736   re_c     1.88%
+   60      Co_L  int      0.0  coeff   1.0000   not included
+   61      Fe_L  int   3335.7  coeff  12.9244   re_c     2.23%
+   62      Sb_M  int      0.0  coeff   1.0000   not included
+   63      Mn_L  int   1154.1  coeff 2403.3535   re_c     7.47%
+   65      Cr_L  int    542.2  coeff 72238.1797   re_c    15.66%
+   66       V_L  int      0.0  coeff   1.0000   re_c     0.00%
+   67      Ti_L  int      0.0  coeff   1.0000   re_c     0.00%
+   68       O_K  int    347.5  coeff 355.2889   re_c    10.87%
+   69  Rh_K_coh  int   7823.8  coeff   1.5031   re_c     1.96%
+   70  Rh_L_coh  int 1129172.1  coeff   0.7459   re_c     0.43%
+   71  Rh_M_coh  int      0.0  coeff   1.0000   re_c     0.00%
+   72  Rh_K_inc  int  19607.5  coeff   0.9081   re_c     1.80%
+   73  Rh_L_inc  int 284940.4  coeff   3.4915   re_c     2.00%
+   74  Rh_M_inc  int      0.0  coeff   1.0000   re_c     0.00%
+
+Calibration file written to C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Output_files_PIQUANT_test_data_May2020/Calibrate_calibration_file_PIQUANT_test_data_May2020.csv
+
+Execution finished,   Duration  66.72 secs. 
+
+

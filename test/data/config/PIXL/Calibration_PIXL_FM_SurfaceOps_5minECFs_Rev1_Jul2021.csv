@@ -1,0 +1,148 @@
+PIQUANT, Calibration File,     written, 2021-07-10 13:31:20
+Element, Emission line, Fit qualifier, Type, Percent, Uncertainty,  Oxide ratio, Weight, ECF, ECF Sigma, Intensity, Atomic number
+COMMENT, Powders: Standards file from Chris Heirwegh
+COMMENT, NIST 610: Standards Input File for PIQUANT
+COMMENT, Glasses and Scapolite: Standards file from Chris Heirwegh
+COMMENT, Spectrum file names changed to WTE sum files
+COMMENT, Feb. 2
+COMMENT, These notes were from the above file
+COMMENT, Nov. 30
+COMMENT, added Zr weight=1 to BHVO-2 to get P fit correct
+COMMENT, Dec. 1
+COMMENT, NIST-610  remove L and M exclusions
+COMMENT, use entry for NIST-610 from FM_StdsIn_4glassesScapolite_1kppm_Optic7_Dec2020.csv
+COMMENT, force L quant for Ag
+COMMENT, Dec. 16
+COMMENT, Remove everything below 10 ppm to speed up evaluations
+COMMENT, Dec. 17
+COMMENT, Water (6.55%) reomved and other components increased proportionally (already done by Chris)
+COMMENT, Dec. 31
+COMMENT, Weight=0 for K in BIR-1G (below 0.1% and bkg too low 3.1 to 3.4 keV)
+COMMENT, Jan. 7
+COMMENT, Set weights for everything below 1% to 0.4 (min eval wgt is 0.5)
+COMMENT, Feb. 2
+COMMENT, Three ranges:  Major 5-100% W=1
+COMMENT, Anything below 100 ppm removed from this file (can be added from original file if peak later found)
+COMMENT, Feb. 9
+COMMENT, Apr. 2
+COMMENT, Use Detector B spectra (not used for optic response) and without L line quantifications
+COMMENT, Apr. 8
+COMMENT, https://en.wikipedia.org/wiki/Magnesium_carbonate
+COMMENT, Apr. 29
+COMMENT, May 1
+COMMENT, June 20
+COMMENT, Reproduce Chris Heirwegh FM standards file "FM_EMCAL_Standard_Input_5min_test_v4_06_11_2020.csv" with spectrum files on this computer
+COMMENT, Added L lines as in his file
+COMMENT, Left McCO3 as in this file with carbonates flag
+COMMENT, *****   14 pure element or compound standards (high concentrations)   *****
+STANDARD, NaCl, Sodium Chloride Puck
+Density, 1.2581
+Na, , , el, 39.3400%, 0.0%, 0.0,   1.00, 0.7542, 0.8%, 21949.1, 11
+Cl, , , el, 60.6600%, 0.0%, 0.0,   1.00, 1.0328, 0.1%, 2746128.0, 17
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611873973_000001C5_001197.msa
+
+STANDARD, Fe, Iron Puck
+Density, 7.9
+Fe, , , el, 100.0000%, 0.0%, 0.0,   1.00, 0.9792, 0.0%, 5566613.0, 26
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611881398_000001C5_001209.msa
+
+STANDARD, Zr, Zirconium Puck
+Density, 6.5
+Zr, K, , el, 100.0000%, 0.0%, 0.0,   1.00, 0.8696, 0.3%, 112908.5, 40
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611881974_000001C5_001210.msa
+
+STANDARD, Zr, Zirconium Puck
+Density, 6.5
+Zr, L, , el, 100.0000%, 0.0%, 0.0,   1.00, 1.1141, 0.1%, 1682527.1, 40
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611881974_000001C5_001210.msa
+
+STANDARD, Al2O3, Aluminum Oxide Puck
+Density, 1.6
+Al, , , el, 100.0000%, 0.0%, 1.5,   1.00, 0.9911, 0.1%, 607678.7, 13
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611874582_000001C5_001198.msa
+
+STANDARD, Ti, Titanium Puck
+Density, 4.5
+Ti, , , el, 100.0000%, 0.0%, 0.0,   1.00, 0.9906, 0.0%, 6142260.5, 22
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611880833_000001C5_001208.msa
+
+STANDARD, SiO2, Silicon Dioxide Puck
+Density, 1.5
+Si, , , el, 99.9925%, 0.0%, 2.0,   1.00, 1.0233, 0.1%, 1299485.1, 14
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611875161_000001C5_001199.msa
+
+STANDARD, CeO, Cerium Oxide Puck
+Density, 4.4
+Ce, , , el, 89.7500%, 0.0%, 1.0,   1.00, 1.0288, 0.1%, 1959388.8, 58
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611880291_000001C5_001207.msa
+
+STANDARD, ZnS, Zinc Sulfide Puck
+Density, 3.9
+Zn, K, , el, 67.1000%, 0.0%, 0.0,   1.00, 0.9344, 0.1%, 2298538.8, 30
+S, , , el, 32.9000%, 0.0%, 0.0,   1.00, 1.1324, 0.1%, 1343884.2, 16
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611875774_000001C5_001200.msa
+
+STANDARD, ZnS, Zinc Sulfide Puck
+Density, 3.9
+Zn, L, , el, 67.1000%, 0.0%, 0.0,   1.00, 0.8706, 0.8%, 18276.7, 30
+S, , , el, 32.9000%, 0.0%, 0.0,   1.00, 1.1336, 0.1%, 1345190.9, 16
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611875774_000001C5_001200.msa
+
+STANDARD, BaZrO3, Barium Zirconate Puck
+Density, 2.9
+Ba, K, , el, 49.6600%, 0.0%, 1.0,   1.00, 0.0000, 0.0%, 0.0, 56
+Zr, , , el, 32.9900%, 0.0%, 2.0,   1.00, 0.8619, 0.5%, 46725.1, 40
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611879722_000001C5_001206.msa
+
+STANDARD, BaZrO3, Barium Zirconate Puck
+Density, 2.9
+Ba, L, , el, 49.6600%, 0.0%, 1.0,   1.00, 1.0355, 0.1%, 1108250.1, 56
+Zr, , , el, 32.9900%, 0.0%, 2.0,   1.00, 0.8619, 0.5%, 46725.1, 40
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611879722_000001C5_001206.msa
+
+STANDARD, KBr, Potassium Bromide Puck
+Density, 1.7
+K, , , el, 32.8600%, 0.0%, 0.0,   1.00, 0.9791, 0.1%, 772702.9, 19
+Br, K, , el, 67.1400%, 0.0%, 0.0,   1.00, 1.0072, 0.1%, 589727.6, 35
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611876350_000001C5_001201.msa
+
+STANDARD, KBr, Potassium Bromide Puck
+Density, 1.7
+K, , , el, 32.8600%, 0.0%, 0.0,   1.00, 0.9804, 0.1%, 773732.8, 19
+Br, L, , el, 67.1400%, 0.0%, 0.0,   1.00, 0.9772, 0.2%, 388232.8, 35
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611876350_000001C5_001201.msa
+
+STANDARD, Ge, Germanium Puck
+Density, 5.3
+Ge, K, , el, 100.0000%, 0.0%, 0.0,   1.00, 0.9865, 0.1%, 1828555.4, 32
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611879155_000001C5_001205.msa
+
+STANDARD, Ge, Germanium Puck
+Density, 5.3
+Ge, L, , el, 100.0000%, 0.0%, 0.0,   1.00, 1.0640, 0.3%, 134797.2, 32
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611879155_000001C5_001205.msa
+
+STANDARD, MgCO3, Magnesium Carbonate Puck
+COMMENT, Apr. 8
+Carbonates
+Density, 1.5
+O, , M, el, 5.6100%, 0.0%, 0.0
+Mg, , , el, 82.3889%, 0.0%, 1.0,   1.00, 0.9784, 0.4%, 77327.5, 12
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611872438_000001C5_001195.msa
+
+STANDARD, Y, Yttrium Puck
+Density, 4.5
+Y, K, , el, 100.0000%, 0.0%, 0.0,   1.00, 0.9233, 0.3%, 166324.5, 39
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611876910_000001C5_001202.msa
+
+STANDARD, Y, Yttrium Puck
+Density, 4.5
+Y, L, , el, 100.0000%, 0.0%, 0.0,   1.00, 1.1065, 0.1%, 1385762.8, 39
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611876910_000001C5_001202.msa
+
+STANDARD, CaF2, Calcium Fluoride
+Density, 1.3
+Ca, , , el, 51.3300%, 0.0%, 0.0,   1.00, 1.0129, 0.1%, 3775178.5, 20
+F, , M, el, 48.6700%, 0.0%, 0.0
+SPECTRUM, C:\Users\wtelam\Documents\ElCal_FM_V3_reanalysis_Feb2021\EC_Pass1_MgCO3-to-Zr_190523\MSA\raw\Dwell_B_0611878584_000001C5_001204.msa
+

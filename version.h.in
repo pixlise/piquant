@@ -1,0 +1,4 @@
+#define Piquant_VERSION_MAJOR @Piquant_VERSION_MAJOR@
+#define Piquant_VERSION_MINOR @Piquant_VERSION_MINOR@
+#define Piquant_VERSION_PATCH @Piquant_VERSION_PATCH@
+#define Piquant_VERSION_BRANCH "@GIT_BRANCH@"

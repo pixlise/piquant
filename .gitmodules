@@ -1,0 +1,3 @@
+[submodule "data-formats"]
+	path = data-formats
+	url = https://github.com/pixlise/data-formats.git

@@ -1,0 +1,12 @@
+0 Lines that start with zero are skipped.
+0 // Any line that starts with two slashes is a comment
+0 // Calibration spectra and compositions for producing new calibration file
+0 //	This file attempts to duplicate previous Davos results   March 27, 2015
+0 //         Original results in file "Calibration_CR_SpecProcOut_DavosProbe_Sep2014.txt"
+0 // The first non-comment line must be the element list for unknown analysis
+0 // The number of elements followed by element symbols
+0 // Blank or tab separated (not commas) and case sensitive
+0 //	Repeat of PIXL proposal calibration from Oct 2013
+0 // Dummy calibration file
+24   13  14  15  16  17  18    19  20  22  23  24  25  26  27  28  29  30  37  38  39  40  41  42  45       121
+      1   1   1   1   1   10000 1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1  10000   1     1

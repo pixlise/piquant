@@ -1,0 +1,54 @@
+#FORMAT      : EMSA/MAS spectral data file
+#VERSION     : TC202v2.0 PIXL
+#COMMENT     : The first two lines must appear exactly as shown, other keywords can be in any order.
+#TITLE       : Breadboard Detector 0
+#TITLE       : The title keyword can be repeated several times if necessary
+#COMMENT     : Comments can appear anywhere except in the spectrum data.
+#DATE        : 01-MAY-2017
+#TIME        : 9:00   The time of day at which the spectrum was recorded, in 24-hour format
+#OWNER       : Breadboard        (PIXL will use this to indicate which instrument took the data.)
+#NPOINTS     : 0    This should be zero for configuration only files
+#NCOLUMNS    : 2    This must match the number of values in XPERCHAN, OFFSET, LIVETIME, and data columns
+#XUNITS      : eV
+#YUNITS      : COUNTS
+#DATATYPE    : YY     (This would be YY for two detectors.)
+#XPERCHAN    : 10, 10 eV per channel, will be used if the spectrum file is not calibrated
+#OFFSET      : 0,0	eV of first channel, will be used if the spectrum file is not calibrated 
+##DL_SLOPE   : -3.499
+##DL_OFFSET  : 11.201
+##MINIMUM_EN : 500	minimum energy in eV to begin fitting
+#SIGNALTYPE  : XRF
+#COMMENT     : The above keywords (except the comments) are always required in the ISO 22029:2012(E) format.
+#COMMENT     : Generally, the keywords that apply to all spectra will be in the configuration file 
+#COMMENT     :   and only the keywords for information unique to each spectrum will appear in the spectrum files.
+#COMMENT     : However, any keywords can appear in the spectrum files and will override the configuration values.
+#COMMENT     : The keywords below are instrument configuration information and will normally by in the configuration file.
+##ANODE      : 45     Atomic number of anode in X-ray tube
+#BEAMKV      : 28.00  X-ray tube voltage in kilovolts
+##TUBEINCANG : 90.00  X-ray tube electron incident angle in degrees
+##TUBETAKEOF : -90.0  X-ray tube takeoff angle in degrees (negative for transmission anode)
+##TUBEWINDOW : 0.1504  X-ray tube Be window thickness in mm
+#EMISSION    : 230     X-ray tube emission current in microamps
+##FILTERZ    : 1  Primary beam filter material - atomic number of metal foil
+##FILTERTH   : 0      Primary beam filter 
+##OPTICFILE  : ./test-data/PIQUANT_test_data_May2020/Input_files_PIQUANT_test_data_May2020/Efficiency_profile_BB_new_2019_01_14_2020.txt	(5 for 2017 breadboard optic, 4 for reading from a text file found in same folder as program, 3 for PIXL default optic, 0 for no optic)
+##INCSR      : 0.00129028   Solid angle from source in steradians (can include normalization for optic file)
+##INCANGLE   : 90.00   Incident angle of primary X-ray beam in degrees (90 is normal incidence)
+#ELEVANGLE   : 70.00   Elevation angle of detector, in degrees (90 is normal to surface)
+#AZIMANGLE   : 180.0   Azimuth angle between incident beam plane and detected beam plane
+##GEOMETRY   : 1.0     Geometric correction factor
+#SOLIDANGLE  : 0.21842 Solid angle collected by the detector in steradians
+#EDSDET      : SDBEW   Type of XRF detector (SDBEW, SIBEW, CDBEW, or GEBEW, for SDD, Si_PIN, CdTe, or Ge)
+#TBEWIND     : 0.0017  Thickness of Be window on detector in cm
+#TACTLYR     : 0.05    Thickness of active layer of detector in cm
+##DETRES     : 130   Detector energy resolution in eV (at 5.9 keV, Mn Ka emission line)
+##ATMOSPHERE : He      Atmosphere in X-ray beam path, can be Vac, He, Mars, Earth, Air
+##PATHINCLEN : 2.0     Length of incident beam path in cm
+##PATHEMGLEN : 3.2     Length of emerging beam path in cm
+##WINDOWTYPE : None    Type of window between instrument and specimen (None, B4C, Plastic, Zr, Al, Nylon, or Al2O3)
+##WINDOWTH   : 0.00    Thickness of above window in cm		(0 = No window)
+#LIVETIME    : 7022, 7022 seconds (separate by commas if more than one detector
+#COMMENT     : Optional keywords we may want to consider in the future:
+#COMMENT     : #CHECKSUM   (See definition in standard)
+#COMMENT     : #BEAMDIAM   beam diameter on specimen (nanometers)
+#COMMENT     : #THICKNESS  thickness of specimen (nanometers)

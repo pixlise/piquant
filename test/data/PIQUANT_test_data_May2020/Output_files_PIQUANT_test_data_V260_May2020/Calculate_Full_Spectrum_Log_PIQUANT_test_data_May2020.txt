@@ -1,0 +1,23 @@
+
+
+------------------------------------------------------
+PIQUANT_GUI  Log file entry   Local time: 2020-05-14 11:45:14.002612
+Command line arguments: ['C:\\Users\\Tim\\Documents\\PIQUANT_V260_Windows_Mar2020\\PIQUANT_CommandLine.exe', 'calc', 'C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Breadboard_Configuration_2019_01_14_2020.msa', 'C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Standards_Input_3_glasses_new_BB_01_08_2020.csv', 'C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Output_files_PIQUANT_test_data_May2020/Calculate_Full_Spectrum_Plot_PIQUANT_test_data_May2020.csv', 'C:\\Users\\Tim\\AppData\\Local\\Temp\\tmpgp2xoe6j']
+-----------------------------------------------------------------
+PIQUANT   Quantitative X-ray Fluorescence Analysis
+Written for PIXL, the Planetary Instrument for X-ray Lithochemistry
+2.6.310-compiling   W. T. Elam   APL/UW
+Local time:  2020-05-14 11:45:13
+
+Configuration read from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Breadboard_Configuration_2019_01_14_2020.msa
+
+Reading standard information from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Standards_Input_3_glasses_new_BB_01_08_2020.csv
+Standards file read OK, entries for 3 standards read in.
+
+
+
+Writing plot to file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Output_files_PIQUANT_test_data_May2020/Calculate_Full_Spectrum_Plot_PIQUANT_test_data_May2020.csv      2800 channels.
+
+Execution finished,   Duration  0.7180 secs. 
+
+

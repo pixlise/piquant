@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PIQUANT" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="../../PythonCode/PIQUANT" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-fexceptions" />
+					<Add option="-DEXCLUDE_PIXLISE_READER" />
+					<Add directory="../build" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-static" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-Wno-sign-compare" />
+			<Add directory="../build" />
+		</Compiler>
+		<Linker>
+			<Add option="-static" />
+		</Linker>
+		<Unit filename="../build/version.h" />
+		<Unit filename="AmpTekRead.cpp" />
+		<Unit filename="AmpTekRead.h" />
+		<Unit filename="Breadboard_optic_efficiency_May2017.h" />
+		<Unit filename="CampbellWidthData_extrap_XrayEdge_Mar2012.h" />
+		<Unit filename="Element.cpp" />
+		<Unit filename="Element.h" />
+		<Unit filename="Energy_vs_Efficiency_smoothed.h" />
+		<Unit filename="FM_OpticResponse_Nov2020.h" />
+		<Unit filename="Fit.cpp" />
+		<Unit filename="Fit.h" />
+		<Unit filename="Lfit.cpp" />
+		<Unit filename="Lfit.h" />
+		<Unit filename="PIQUANT_CommandLine.cpp" />
+		<Unit filename="ScatterXsectTable.cpp" />
+		<Unit filename="ScatterXsectTable.h" />
+		<Unit filename="Sewell_tube_calc.cpp" />
+		<Unit filename="Sewell_tube_calc.h" />
+		<Unit filename="XRFConditions.cpp" />
+		<Unit filename="XRFconditions.h" />
+		<Unit filename="XRFconstants.h" />
+		<Unit filename="XRFcontrols.h" />
+		<Unit filename="XRFstandards.h" />
+		<Unit filename="XRFutilities.cpp" />
+		<Unit filename="XRFutilities.h" />
+		<Unit filename="XrayDetector.cpp" />
+		<Unit filename="XrayDetector.h" />
+		<Unit filename="XrayEdge.cpp" />
+		<Unit filename="XrayEdge.h" />
+		<Unit filename="XrayLines.cpp" />
+		<Unit filename="XrayLines.h" />
+		<Unit filename="XrayMaterial.cpp" />
+		<Unit filename="XrayMaterial.h" />
+		<Unit filename="XrayOptic.cpp" />
+		<Unit filename="XrayOptic.h" />
+		<Unit filename="XraySource.cpp" />
+		<Unit filename="XraySource.h" />
+		<Unit filename="XraySpectrum.cpp" />
+		<Unit filename="XraySpectrum.h" />
+		<Unit filename="XrayXsectTable.cpp" />
+		<Unit filename="XrayXsectTable.h" />
+		<Unit filename="borehole_read.cpp" />
+		<Unit filename="borehole_read.h" />
+		<Unit filename="debug_stack.cpp" />
+		<Unit filename="debug_stack.h" />
+		<Unit filename="differentiate.cpp" />
+		<Unit filename="differentiate.h" />
+		<Unit filename="energy_calibration.cpp" />
+		<Unit filename="energy_calibration.h" />
+		<Unit filename="fpBeams.cpp" />
+		<Unit filename="fpBeams.h" />
+		<Unit filename="fpCK.cpp" />
+		<Unit filename="fpCK.h" />
+		<Unit filename="fpConvolve.cpp" />
+		<Unit filename="fpConvolve.h" />
+		<Unit filename="fpEdgeAbsorption.cpp" />
+		<Unit filename="fpEdgeAbsorption.h" />
+		<Unit filename="fpExcitation.cpp" />
+		<Unit filename="fpExcitation.h" />
+		<Unit filename="fpLineSpectrum.cpp" />
+		<Unit filename="fpLineSpectrum.h" />
+		<Unit filename="fpMain.cpp" />
+		<Unit filename="fpMain.h" />
+		<Unit filename="fpOxide.cpp" />
+		<Unit filename="fpOxide.h" />
+		<Unit filename="fpPrimary.cpp" />
+		<Unit filename="fpPrimary.h" />
+		<Unit filename="fpPrimaryLines.cpp" />
+		<Unit filename="fpPrimaryLines.h" />
+		<Unit filename="fpPure.cpp" />
+		<Unit filename="fpPure.h" />
+		<Unit filename="fpSecondary.cpp" />
+		<Unit filename="fpSecondary.h" />
+		<Unit filename="fpSetupConditions.cpp" />
+		<Unit filename="fpSetupConditions.h" />
+		<Unit filename="histogram_from_SDD_data.cpp" />
+		<Unit filename="histogram_from_SDD_data.h" />
+		<Unit filename="interp.cpp" />
+		<Unit filename="interp.h" />
+		<Unit filename="map_spectrum_file_increment.cpp" />
+		<Unit filename="map_spectrum_file_increment.h" />
+		<Unit filename="map_threading.cpp" />
+		<Unit filename="map_threading.h" />
+		<Unit filename="nofx.cpp" />
+		<Unit filename="nofx.h" />
+		<Unit filename="parse_arguments.cpp" />
+		<Unit filename="parse_arguments.h" />
+		<Unit filename="parse_element_list.cpp" />
+		<Unit filename="parse_element_list.h" />
+		<Unit filename="parse_records.cpp" />
+		<Unit filename="parse_records.h" />
+		<Unit filename="quantBackground.cpp" />
+		<Unit filename="quantBackground.h" />
+		<Unit filename="quantCalculate.cpp" />
+		<Unit filename="quantCalculate.h" />
+		<Unit filename="quantCombineSpectra.cpp" />
+		<Unit filename="quantCombineSpectra.h" />
+		<Unit filename="quantComponents.cpp" />
+		<Unit filename="quantComponents.h" />
+		<Unit filename="quantECFs.cpp" />
+		<Unit filename="quantECFs.h" />
+		<Unit filename="quantFitSpectrum.cpp" />
+		<Unit filename="quantFitSpectrum.h" />
+		<Unit filename="quantIgnore.cpp" />
+		<Unit filename="quantIgnore.h" />
+		<Unit filename="quantOpticResponse.cpp" />
+		<Unit filename="quantOpticResponse.h" />
+		<Unit filename="quantPrimarySpec.cpp" />
+		<Unit filename="quantPrimarySpec.h" />
+		<Unit filename="quantStandard.cpp" />
+		<Unit filename="quantStandard.h" />
+		<Unit filename="quantUnknown.cpp" />
+		<Unit filename="quantUnknown.h" />
+		<Unit filename="quantWriteCalibrationCSV.cpp" />
+		<Unit filename="quantWriteCalibrationCSV.h" />
+		<Unit filename="quantWriteCalibrationTXT.cpp" />
+		<Unit filename="quantWriteCalibrationTXT.h" />
+		<Unit filename="quantWriteMap.cpp" />
+		<Unit filename="quantWriteMap.h" />
+		<Unit filename="quantWritePlot.cpp" />
+		<Unit filename="quantWritePlot.h" />
+		<Unit filename="quantWriteResults.cpp" />
+		<Unit filename="quantWriteResults.h" />
+		<Unit filename="read_EMSA_PIXL.cpp" />
+		<Unit filename="read_EMSA_PIXL.h" />
+		<Unit filename="read_PIXLISE_spectrum.cpp" />
+		<Unit filename="read_PIXLISE_spectrum.h" />
+		<Unit filename="read_XIA_PIXL.cpp" />
+		<Unit filename="read_XIA_PIXL.h" />
+		<Unit filename="read_spectrum_file.cpp" />
+		<Unit filename="read_spectrum_file.h" />
+		<Unit filename="read_tube_spectrum.cpp" />
+		<Unit filename="read_tube_spectrum.h" />
+		<Unit filename="rebin.cpp" />
+		<Unit filename="rebin.h" />
+		<Unit filename="sampleEdgeList.cpp" />
+		<Unit filename="sampleEdgeList.h" />
+		<Unit filename="scale_under_peaks.cpp" />
+		<Unit filename="scale_under_peaks.h" />
+		<Unit filename="scatxsct_data.h" />
+		<Unit filename="setupStandardsCSV.cpp" />
+		<Unit filename="setupStandardsCSV.h" />
+		<Unit filename="setupStandardsTXT.cpp" />
+		<Unit filename="setupStandardsTXT.h" />
+		<Unit filename="setup_spectrum_parameters.cpp" />
+		<Unit filename="setup_spectrum_parameters.h" />
+		<Unit filename="snip.cpp" />
+		<Unit filename="snip.h" />
+		<Unit filename="spectrumBulkSumMax.cpp" />
+		<Unit filename="spectrumBulkSumMax.h" />
+		<Unit filename="spline.cpp" />
+		<Unit filename="spline.h" />
+		<Unit filename="split_component.cpp" />
+		<Unit filename="split_component.h" />
+		<Unit filename="time_code.h" />
+		<Unit filename="toStringHelpers.cpp" />
+		<Unit filename="toStringHelpers.h" />
+		<Unit filename="upper_trim.cpp" />
+		<Unit filename="upper_trim.h" />
+		<Unit filename="write_EDRhistogram_data.cpp" />
+		<Unit filename="write_EDRhistogram_data.h" />
+		<Unit filename="write_conditions.cpp" />
+		<Unit filename="write_conditions.h" />
+		<Unit filename="xrayxsct_data_cmh.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

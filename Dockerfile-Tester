@@ -1,0 +1,4 @@
+FROM python:3.7-slim
+
+# Any libs required by tester
+RUN pip3 install boto3

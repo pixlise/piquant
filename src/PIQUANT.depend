@@ -1,0 +1,4179 @@
+# depslib dependency file v1.0
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\amptekread.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	<stdlib.h>
+	<vector>
+	"AmpTekRead.h"
+	"Fit.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\amptekread.h
+	<vector>
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\fit.h
+	<vector>
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\borehole_read.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<stdlib.h>
+	"borehole_read.h"
+	"XRFconditions.h"
+	"upper_trim.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\borehole_read.h
+	<vector>
+	<string>
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\xrfconditions.h
+	"Element.h"
+	"XraySource.h"
+	"XrayOptic.h"
+	"XrayMaterial.h"
+	"XrayDetector.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\element.h
+	<string>
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\xraysource.h
+	"XRFconstants.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\xrfconstants.h
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\xrayedge.h
+	<vector>
+	<string>
+	"Element.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\xraylines.h
+	<vector>
+	<string>
+	"XrayEdge.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\xrayxsecttable.h
+	<iostream>
+	<fstream>
+	<iomanip>
+	<vector>
+	<math.h>
+	"Element.h"
+	"spline.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\spline.h
+	<vector>
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\xrayoptic.h
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\xraymaterial.h
+	<vector>
+	"Element.h"
+	"XrayXsectTable.h"
+	"ScatterXsectTable.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\scatterxsecttable.h
+	<iostream>
+	<fstream>
+	<iomanip>
+	<vector>
+	<math.h>
+	"Element.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\xraydetector.h
+	<vector>
+	"XRFconstants.h"
+	"XrayMaterial.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\upper_trim.h
+	<string>
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\differentiate.cpp
+	"differentiate.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\differentiate.h
+	<vector>
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\element.cpp
+	<string>
+	"Element.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\energy_calibration.cpp
+	"energy_calibration.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\energy_calibration.h
+	<vector>
+	"parse_element_list.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\parse_element_list.h
+	<string>
+	<vector>
+	"Element.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\fpbeams.cpp
+	"Element.h"
+	"XRFconstants.h"
+	"fpBeams.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\fpbeams.h
+	<vector>
+	"XRFconditions.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\fpck.cpp
+	"fpCK.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\fpck.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\fpconvolve.cpp
+	<iostream>
+	<vector>
+	<math.h>
+	"fpConvolve.h"
+	"XrayDetector.h"
+	"XRFcontrols.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\fpconvolve.h
+	"XraySpectrum.h"
+	"XrayDetector.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\xrayspectrum.h
+	<vector>
+	<math.h>
+	"Element.h"
+	"quantComponents.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\quantcomponents.h
+	<vector>
+	<string>
+	"Element.h"
+	"XrayLines.h"
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"parse_element_list.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\xrfcontrols.h
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\fpedgeabsorption.cpp
+	"fpEdgeAbsorption.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\fpedgeabsorption.h
+	<vector>
+	"XrayXsectTable.h"
+	"XrayEdge.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\fpexcitation.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XraySource.h"
+	"nofx.h"
+	"fpExcitation.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\nofx.h
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\fpexcitation.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XraySource.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\fplinespectrum.cpp
+	<iostream>
+	<vector>
+	<math.h>
+	"fpLineSpectrum.h"
+	"XrayDetector.h"
+	"XRFcontrols.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\fplinespectrum.h
+	<vector>
+	"XrayLines.h"
+	"XraySpectrum.h"
+	"XrayDetector.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\fpmain.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XraySource.h"
+	"XrayXsectTable.h"
+	"ScatterXsectTable.h"
+	"XRFconstants.h"
+	"sampleEdgeList.h"
+	"fpExcitation.h"
+	"fpEdgeAbsorption.h"
+	"fpPrimary.h"
+	"fpSecondary.h"
+	"fpCK.h"
+	"fpMain.h"
+	"fpBeams.h"
+	"XrayOptic.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\sampleedgelist.h
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\fpprimary.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\fpsecondary.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\fpmain.h
+	<vector>
+	"XRFconditions.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XraySpectrum.h"
+	"XrayXsectTable.h"
+	"ScatterXsectTable.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\fpoxide.cpp
+	"fpOxide.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\fpoxide.h
+	<vector>
+	"Element.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\fpprimary.cpp
+	"fpPrimary.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\fpprimarylines.cpp
+	<iostream>
+	"Element.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+	"fpBeams.h"
+	"fpPrimaryLines.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\fpprimarylines.h
+	<vector>
+	"XRFconditions.h"
+	"XrayLines.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\fppure.cpp
+	"fpPure.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\fppure.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\fpsecondary.cpp
+	"fpSecondary.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\fpsetupconditions.cpp
+	"Element.h"
+	"XRFconstants.h"
+	"fpSetupConditions.h"
+	"XrayDetector.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\fpsetupconditions.h
+	<vector>
+	<string>
+	"XRFconditions.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\histogram_from_sdd_data.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"parse_records.h"
+	"histogram_from_SDD_data.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\parse_records.h
+	<string>
+	<vector>
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\histogram_from_sdd_data.h
+	<vector>
+	<string>
+	"XraySpectrum.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\map_spectrum_file_increment.cpp
+	<iostream>
+	<sstream>
+	<math.h>
+	"XRFconstants.h"
+	"map_spectrum_file_increment.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\map_spectrum_file_increment.h
+	<string>
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\parse_arguments.cpp
+	<iostream>
+	<sstream>
+	"parse_arguments.h"
+	"parse_records.h"
+	"upper_trim.h"
+	"XRFconstants.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\parse_arguments.h
+	<string>
+	<vector>
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\parse_element_list.cpp
+	<iostream>
+	<sstream>
+	"parse_element_list.h"
+	"parse_records.h"
+	"upper_trim.h"
+	"XRFutilities.h"
+	"XRFconstants.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\xrfutilities.h
+	<string>
+	<vector>
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\parse_records.cpp
+	<iostream>
+	"parse_records.h"
+	"XRFconstants.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\quantbackground.cpp
+	"quantBackground.h"
+	"XRFconstants.h"
+	"snip.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\quantbackground.h
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\snip.h
+	<vector>
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\quantcalculate.cpp
+	"quantCalculate.h"
+	"fpLineSpectrum.h"
+	"fpMain.h"
+	"fpConvolve.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+	"quantComponents.h"
+	"parse_element_list.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\quantcalculate.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\quantcombinespectra.cpp
+	"quantCombineSpectra.h"
+	"rebin.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\quantcombinespectra.h
+	<vector>
+	"XraySpectrum.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\rebin.h
+	<vector>
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\quantcomponents.cpp
+	<iostream>
+	<sstream>
+	"upper_trim.h"
+	"fpMain.h"
+	"quantComponents.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\quantecfs.cpp
+	"quantECFs.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\quantecfs.h
+	<vector>
+	"Element.h"
+	"XRFstandards.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\xrfstandards.h
+	"XrayMaterial.h"
+	"XraySpectrum.h"
+	"parse_element_list.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\quantfitspectrum.cpp
+	"quantFitSpectrum.h"
+	"Lfit.h"
+	"Fit.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\quantfitspectrum.h
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\lfit.h
+	<vector>
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\quantignore.cpp
+	"quantIgnore.h"
+	"quantComponents.h"
+	"fpMain.h"
+	"fpLineSpectrum.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\quantignore.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+	"XrayLines.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\quantprimaryspec.cpp
+	<iostream>
+	"Element.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+	"fpBeams.h"
+	"fpLineSpectrum.h"
+	"quantPrimarySpec.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\quantprimaryspec.h
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\quantstandard.cpp
+	"quantStandard.h"
+	"quantBackground.h"
+	"quantComponents.h"
+	"quantIgnore.h"
+	"quantCalculate.h"
+	"quantFitSpectrum.h"
+	"fpMain.h"
+	"fpLineSpectrum.h"
+	"Lfit.h"
+	"Fit.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\quantstandard.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\quantunknown.cpp
+	"quantUnknown.h"
+	"quantWriteCalibrationTXT.h"
+	"quantBackground.h"
+	"quantComponents.h"
+	"quantIgnore.h"
+	"quantCalculate.h"
+	"quantFitSpectrum.h"
+	"setupStandardsCSV.h"
+	"quantECFs.h"
+	"fpMain.h"
+	"fpLineSpectrum.h"
+	"Lfit.h"
+	"Fit.h"
+	"upper_trim.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\quantunknown.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\quantwritecalibrationtxt.h
+	<vector>
+	<string>
+	"setupStandardsTXT.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\setupstandardstxt.h
+	<iostream>
+	<vector>
+	<string>
+	"XRFstandards.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\setupstandardscsv.h
+	<iostream>
+	<vector>
+	<string>
+	"XRFstandards.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\quantwritecalibrationcsv.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"quantWriteCalibrationCSV.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\quantwritecalibrationcsv.h
+	<vector>
+	<string>
+	"XRFstandards.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\quantwritecalibrationtxt.cpp
+	<algorithm>
+	"quantWriteCalibrationTXT.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"upper_trim.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\quantwritemap.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	"quantWriteMap.h"
+	"quantWriteResults.h"
+	"upper_trim.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+	<stdlib.h>
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\quantwritemap.h
+	<string>
+	"XrayMaterial.h"
+	"XrayDetector.h"
+	"XraySpectrum.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\quantwriteresults.h
+	<ostream>
+	<vector>
+	"Element.h"
+	"parse_element_list.h"
+	"XrayMaterial.h"
+	"XrayDetector.h"
+	"XraySpectrum.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\quantwriteplot.cpp
+	"quantWritePlot.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\quantwriteplot.h
+	"parse_arguments.h"
+	"XraySpectrum.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\quantwriteresults.cpp
+	"quantWriteResults.h"
+	"Lfit.h"
+	"Fit.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\read_emsa_pixl.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<stdlib.h>
+	<string>
+	"read_EMSA_PIXL.h"
+	"XRFconditions.h"
+	"parse_records.h"
+	"upper_trim.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\read_emsa_pixl.h
+	<vector>
+	<string>
+	"XraySpectrum.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\read_spectrum_file.cpp
+	<iostream>
+	<fstream>
+	"read_spectrum_file.h"
+	"AmpTekRead.h"
+	"borehole_read.h"
+	"read_EMSA_PIXL.h"
+	"read_XIA_PIXL.h"
+	"upper_trim.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\read_spectrum_file.h
+	<string>
+	<vector>
+	"XraySpectrum.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\read_xia_pixl.h
+	<vector>
+	<string>
+	"XraySpectrum.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\read_xia_pixl.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<stdlib.h>
+	"read_XIA_PIXL.h"
+	"upper_trim.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\rebin.cpp
+	"rebin.h"
+	<math.h>
+	<cstdlib>
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\sampleedgelist.cpp
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XraySource.h"
+	"sampleEdgeList.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\scatterxsecttable.cpp
+	<iostream>
+	<ios>
+	<iosfwd>
+	"interp.h"
+	"XrayEdge.h"
+	"XRFconstants.h"
+	"ScatterXsectTable.h"
+	"scatxsct_data.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\interp.h
+	<iostream>
+	<vector>
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\scatxsct_data.h
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\setupstandardscsv.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	"upper_trim.h"
+	"parse_arguments.h"
+	"parse_records.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+	"setupStandardsCSV.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\setupstandardstxt.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	"XRFutilities.h"
+	"setupStandardsTXT.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\snip.cpp
+	<vector>
+	<cstdlib>
+	<math.h>
+	"snip.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\spline.cpp
+	<vector>
+	<exception>
+	"spline.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\upper_trim.cpp
+	"upper_trim.h"
+	"XRFconstants.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\write_conditions.cpp
+	<iostream>
+	<iomanip>
+	"read_EMSA_PIXL.h"
+	"write_conditions.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\write_conditions.h
+	<vector>
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\write_edrhistogram_data.cpp
+	<iostream>
+	<fstream>
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"write_EDRhistogram_data.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\write_edrhistogram_data.h
+	<string>
+	"XraySpectrum.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\xraydetector.cpp
+	<math.h>
+	"XrayDetector.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\xrayedge.cpp
+	<string>
+	<vector>
+	"interp.h"
+	"Element.h"
+	"XrayEdge.h"
+	"CampbellWidthData_extrap_XrayEdge_Mar2012.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\campbellwidthdata_extrap_xrayedge_mar2012.h
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\xraylines.cpp
+	<string>
+	<math.h>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"interp.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\xraymaterial.cpp
+	"XrayMaterial.h"
+	<math.h>
+	"XRFconstants.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\xrayoptic.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<iomanip>
+	"stdlib.h"
+	"XrayOptic.h"
+	"interp.h"
+	"Energy_vs_Efficiency_smoothed.h"
+	"Breadboard_optic_efficiency_May2017.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\energy_vs_efficiency_smoothed.h
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\breadboard_optic_efficiency_may2017.h
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\xraysource.cpp
+	<iostream>
+	<vector>
+	<math.h>
+	"XRFconstants.h"
+	"XraySource.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\xrayspectrum.cpp
+	"XraySpectrum.h"
+	<math.h>
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\xrayxsecttable.cpp
+	<iostream>
+	<ios>
+	<iosfwd>
+	"XrayXsectTable.h"
+	"xrayxsct_data_cmh.h"
+	"nofx.h"
+
+1579741458 c:\users\tim\documents\piquant_github_version_jan2020\xrayxsct_data_cmh.h
+
+1579741458 source:c:\users\tim\documents\piquant_github_version_jan2020\xrfutilities.cpp
+	<sstream>
+	<time.h>
+	<ctype.h>
+	"upper_trim.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1579741988 source:c:\users\tim\documents\piquant_github_version_jan2020\fit.cpp
+	<math.h>
+	"Fit.h"
+	<iostream>
+
+1579742021 source:c:\users\tim\documents\piquant_github_version_jan2020\interp.cpp
+	"interp.h"
+	<string>
+	<cmath>
+
+1579742037 source:c:\users\tim\documents\piquant_github_version_jan2020\lfit.cpp
+	"Lfit.h"
+	"XRFconstants.h"
+	<math.h>
+
+1579741977 source:c:\users\tim\documents\piquant_github_version_jan2020\nofx.cpp
+	<vector>
+	<math.h>
+	"nofx.h"
+
+1579742232 source:c:\users\tim\documents\piquant_github_version_jan2020\piquant_commandline.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	<stdlib.h>
+	<vector>
+	<math.h>
+	<time.h>
+	"parse_arguments.h"
+	"parse_element_list.h"
+	"read_spectrum_file.h"
+	"setupStandardsTXT.h"
+	"setupStandardsCSV.h"
+	"Element.h"
+	"borehole_read.h"
+	"read_EMSA_PIXL.h"
+	"map_spectrum_file_increment.h"
+	"energy_calibration.h"
+	"fpSetupConditions.h"
+	"quantBackground.h"
+	"quantCalculate.h"
+	"quantPrimarySpec.h"
+	"quantStandard.h"
+	"quantUnknown.h"
+	"quantWriteResults.h"
+	"quantWriteCalibrationTXT.h"
+	"quantWriteCalibrationCSV.h"
+	"quantWriteMap.h"
+	"quantWritePlot.h"
+	"XraySpectrum.h"
+	"upper_trim.h"
+	"fpMain.h"
+	"XRFconditions.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+	"write_conditions.h"
+	"quantCombineSpectra.h"
+	"histogram_from_SDD_data.h"
+	"write_EDRhistogram_data.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\amptekread.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	<stdlib.h>
+	<vector>
+	"AmpTekRead.h"
+	"Fit.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\amptekread.h
+	<vector>
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fit.h
+	<vector>
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\borehole_read.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<stdlib.h>
+	"borehole_read.h"
+	"XRFconditions.h"
+	"upper_trim.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\borehole_read.h
+	<vector>
+	<string>
+
+1603155352 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrfconditions.h
+	<vector>
+	<string>
+	"Element.h"
+	"XraySource.h"
+	"XrayOptic.h"
+	"XrayMaterial.h"
+	"XrayDetector.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\element.h
+	<string>
+
+1603155352 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xraysource.h
+	"XRFconstants.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XrayMaterial.h"
+
+1603155352 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrfconstants.h
+
+1603155352 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrayedge.h
+	<vector>
+	<string>
+	"Element.h"
+
+1606259436 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xraylines.h
+	<vector>
+	<string>
+	"XrayEdge.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrayxsecttable.h
+	<iostream>
+	<fstream>
+	<iomanip>
+	<vector>
+	<math.h>
+	"Element.h"
+	"spline.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\spline.h
+	<vector>
+
+1604335172 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrayoptic.h
+	<string>
+
+1606254848 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xraymaterial.h
+	<vector>
+	"Element.h"
+	"XrayXsectTable.h"
+	"ScatterXsectTable.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\scatterxsecttable.h
+	<iostream>
+	<fstream>
+	<iomanip>
+	<vector>
+	<math.h>
+	"Element.h"
+
+1604453759 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xraydetector.h
+	<vector>
+	"XRFconstants.h"
+	"XrayMaterial.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\upper_trim.h
+	<string>
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\differentiate.cpp
+	"differentiate.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\differentiate.h
+	<vector>
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\element.cpp
+	<string>
+	"Element.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\energy_calibration.cpp
+	"energy_calibration.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\energy_calibration.h
+	<vector>
+	"parse_element_list.h"
+
+1606270639 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\parse_element_list.h
+	<string>
+	<vector>
+	"Element.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fit.cpp
+	<math.h>
+	"Fit.h"
+	<iostream>
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpbeams.cpp
+	"Element.h"
+	"XRFconstants.h"
+	"fpBeams.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpbeams.h
+	<vector>
+	"XRFconditions.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpck.cpp
+	"fpCK.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpck.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpconvolve.cpp
+	<iostream>
+	<vector>
+	<math.h>
+	"fpConvolve.h"
+	"XrayDetector.h"
+	"XRFcontrols.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpconvolve.h
+	"XraySpectrum.h"
+	"XrayDetector.h"
+
+1604104520 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrayspectrum.h
+	<vector>
+	<math.h>
+	"Element.h"
+	"quantComponents.h"
+
+1606765768 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantcomponents.h
+	<vector>
+	<string>
+	"Element.h"
+	"XrayLines.h"
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"parse_element_list.h"
+
+1606863794 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrfcontrols.h
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpedgeabsorption.cpp
+	"fpEdgeAbsorption.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpedgeabsorption.h
+	<vector>
+	"XrayXsectTable.h"
+	"XrayEdge.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpexcitation.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XraySource.h"
+	"nofx.h"
+	"fpExcitation.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\nofx.h
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpexcitation.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XraySource.h"
+
+1606760258 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fplinespectrum.cpp
+	<iostream>
+	<vector>
+	<math.h>
+	"fpLineSpectrum.h"
+	"XrayDetector.h"
+	"XRFcontrols.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fplinespectrum.h
+	<vector>
+	"XrayLines.h"
+	"XraySpectrum.h"
+	"XrayDetector.h"
+
+1606269595 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpmain.cpp
+	<sstream>
+	<iostream>
+	<vector>
+	<algorithm>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XraySource.h"
+	"XrayXsectTable.h"
+	"ScatterXsectTable.h"
+	"XRFconstants.h"
+	"sampleEdgeList.h"
+	"fpExcitation.h"
+	"fpEdgeAbsorption.h"
+	"fpPrimary.h"
+	"fpSecondary.h"
+	"fpCK.h"
+	"fpMain.h"
+	"fpBeams.h"
+	"XrayOptic.h"
+	"toStringHelpers.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\sampleedgelist.h
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpprimary.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpsecondary.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1606259436 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpmain.h
+	<vector>
+	"XRFconditions.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XraySpectrum.h"
+	"XrayXsectTable.h"
+	"ScatterXsectTable.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\tostringhelpers.h
+	"Element.h"
+	<vector>
+	<string>
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpoxide.cpp
+	"fpOxide.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpoxide.h
+	<vector>
+	"Element.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpprimary.cpp
+	"fpPrimary.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpprimarylines.cpp
+	<iostream>
+	"Element.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+	"fpBeams.h"
+	"fpPrimaryLines.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpprimarylines.h
+	<vector>
+	"XRFconditions.h"
+	"XrayLines.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fppure.cpp
+	"fpPure.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fppure.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpsecondary.cpp
+	"fpSecondary.h"
+
+1604343237 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpsetupconditions.cpp
+	"Element.h"
+	"XRFconstants.h"
+	"XrayDetector.h"
+	"read_tube_spectrum.h"
+	"parse_element_list.h"
+	"fpSetupConditions.h"
+
+1603155352 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fpsetupconditions.h
+	<vector>
+	<string>
+	"XRFconditions.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\histogram_from_sdd_data.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"parse_records.h"
+	"histogram_from_SDD_data.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\parse_records.h
+	<string>
+	<vector>
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\histogram_from_sdd_data.h
+	<vector>
+	<string>
+	"XraySpectrum.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\interp.cpp
+	"interp.h"
+	<string>
+	<cmath>
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\interp.h
+	<iostream>
+	<vector>
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\lfit.cpp
+	"Lfit.h"
+	"XRFconstants.h"
+	<math.h>
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\lfit.h
+	<vector>
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\map_spectrum_file_increment.cpp
+	<iostream>
+	<sstream>
+	<math.h>
+	"XRFconstants.h"
+	"map_spectrum_file_increment.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\map_spectrum_file_increment.h
+	<string>
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\nofx.cpp
+	<vector>
+	<math.h>
+	"nofx.h"
+
+1606340093 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\parse_arguments.cpp
+	<iostream>
+	<sstream>
+	"parse_arguments.h"
+	"parse_records.h"
+	"upper_trim.h"
+	"XRFconstants.h"
+
+1604536572 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\parse_arguments.h
+	<string>
+	<vector>
+
+1606270639 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\parse_element_list.cpp
+	<iostream>
+	<sstream>
+	"parse_element_list.h"
+	"parse_records.h"
+	"upper_trim.h"
+	"XRFutilities.h"
+	"XRFconstants.h"
+
+1603155352 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrfutilities.h
+	<string>
+	<vector>
+	"Element.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\parse_records.cpp
+	<iostream>
+	"parse_records.h"
+	"XRFconstants.h"
+
+1606863794 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\piquant_commandline.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	<stdlib.h>
+	<vector>
+	<math.h>
+	<time.h>
+	"parse_arguments.h"
+	"parse_element_list.h"
+	"read_spectrum_file.h"
+	"setupStandardsTXT.h"
+	"setupStandardsCSV.h"
+	"Element.h"
+	"borehole_read.h"
+	"read_EMSA_PIXL.h"
+	"map_spectrum_file_increment.h"
+	"energy_calibration.h"
+	"fpSetupConditions.h"
+	"quantBackground.h"
+	"quantCalculate.h"
+	"quantPrimarySpec.h"
+	"split_component.h"
+	"quantOpticResponse.h"
+	"quantStandard.h"
+	"quantUnknown.h"
+	"quantWriteResults.h"
+	"quantWriteCalibrationTXT.h"
+	"quantWriteCalibrationCSV.h"
+	"quantWriteMap.h"
+	"quantWritePlot.h"
+	"XraySpectrum.h"
+	"upper_trim.h"
+	"fpMain.h"
+	"XRFconditions.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+	"write_conditions.h"
+	"quantCombineSpectra.h"
+	"histogram_from_SDD_data.h"
+	"write_EDRhistogram_data.h"
+	"spectrumBulkSumMax.h"
+	"time_code.h"
+	"debug_stack.h"
+	"map_threading.h"
+	"setup_spectrum_parameters.h"
+	<mutex>
+	<thread>
+	<chrono>
+	"fpBeams.h"
+	"version.h"
+	"split_component.h"
+
+1603155352 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\read_spectrum_file.h
+	<string>
+	<vector>
+	"XraySpectrum.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\setupstandardstxt.h
+	<iostream>
+	<vector>
+	<string>
+	"XRFstandards.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrfstandards.h
+	"XrayMaterial.h"
+	"XraySpectrum.h"
+	"parse_element_list.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\setupstandardscsv.h
+	<iostream>
+	<vector>
+	<string>
+	"XRFstandards.h"
+
+1603155352 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\read_emsa_pixl.h
+	<vector>
+	<string>
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantbackground.h
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1603394563 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantcalculate.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+	"fpMain.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantprimaryspec.h
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantstandard.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+	"fpMain.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantunknown.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1606254277 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantwriteresults.h
+	<ostream>
+	<vector>
+	"Element.h"
+	"parse_element_list.h"
+	"XrayMaterial.h"
+	"XrayDetector.h"
+	"XraySpectrum.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantwritecalibrationtxt.h
+	<vector>
+	<string>
+	"setupStandardsTXT.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantwritecalibrationcsv.h
+	<vector>
+	<string>
+	"XRFstandards.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantwritemap.h
+	<string>
+	"XrayMaterial.h"
+	"XrayDetector.h"
+	"XraySpectrum.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantwriteplot.h
+	"parse_arguments.h"
+	"XraySpectrum.h"
+
+1603155352 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\write_conditions.h
+	"XRFconditions.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantcombinespectra.h
+	<vector>
+	"XraySpectrum.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\write_edrhistogram_data.h
+	<string>
+	"XraySpectrum.h"
+
+1603155352 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\spectrumbulksummax.h
+	<string>
+	<vector>
+	"XraySpectrum.h"
+	"parse_arguments.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\time_code.h
+	<chrono>
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\debug_stack.h
+
+1603155352 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\map_threading.h
+	<iostream>
+	<vector>
+	<string>
+	"parse_arguments.h"
+	"parse_element_list.h"
+	"XraySpectrum.h"
+
+1603155352 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\setup_spectrum_parameters.h
+	<vector>
+	<string>
+	<ostream>
+	"parse_arguments.h"
+	"XraySpectrum.h"
+
+1603147656 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\build\version.h
+
+1604540437 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantbackground.cpp
+	"quantBackground.h"
+	"XRFconstants.h"
+	"snip.h"
+	"split_component.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\snip.h
+	<vector>
+
+1606933003 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantcalculate.cpp
+	"quantCalculate.h"
+	"fpLineSpectrum.h"
+	"fpMain.h"
+	"fpConvolve.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+	"quantComponents.h"
+	"split_component.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantcombinespectra.cpp
+	"quantCombineSpectra.h"
+	"rebin.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\rebin.h
+	<vector>
+
+1606842357 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantcomponents.cpp
+	<iostream>
+	<sstream>
+	"upper_trim.h"
+	"fpMain.h"
+	"quantComponents.h"
+	"toStringHelpers.h"
+
+1606348236 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantecfs.cpp
+	"quantECFs.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantecfs.h
+	<vector>
+	"Element.h"
+	"XRFstandards.h"
+
+1606765886 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantfitspectrum.cpp
+	"quantFitSpectrum.h"
+	"Lfit.h"
+	"Fit.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantfitspectrum.h
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1593462723 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantignore.cpp
+	"quantIgnore.h"
+	"quantComponents.h"
+	"fpMain.h"
+	"fpLineSpectrum.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantignore.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+	"XrayLines.h"
+
+1603155352 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantprimaryspec.cpp
+	<iostream>
+	"Element.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+	"fpBeams.h"
+	"fpLineSpectrum.h"
+	"fpConvolve.h"
+	"quantPrimarySpec.h"
+
+1606866608 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantstandard.cpp
+	"quantStandard.h"
+	"quantBackground.h"
+	"quantComponents.h"
+	"quantIgnore.h"
+	"quantCalculate.h"
+	"quantFitSpectrum.h"
+	"fpMain.h"
+	"fpLineSpectrum.h"
+	"Lfit.h"
+	"Fit.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1606866611 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantunknown.cpp
+	"quantUnknown.h"
+	"quantWriteCalibrationTXT.h"
+	"quantBackground.h"
+	"quantComponents.h"
+	"quantIgnore.h"
+	"quantCalculate.h"
+	"quantFitSpectrum.h"
+	"setupStandardsCSV.h"
+	"quantECFs.h"
+	"fpMain.h"
+	"fpLineSpectrum.h"
+	"Lfit.h"
+	"Fit.h"
+	"upper_trim.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1593462723 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantwritecalibrationcsv.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"quantWriteCalibrationCSV.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1593462723 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantwritecalibrationtxt.cpp
+	<algorithm>
+	"quantWriteCalibrationTXT.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"upper_trim.h"
+
+1606332749 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantwritemap.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	"quantWriteMap.h"
+	"quantWriteResults.h"
+	"upper_trim.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+	<stdlib.h>
+
+1604538058 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantwriteplot.cpp
+	"quantWritePlot.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1606871095 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantwriteresults.cpp
+	"quantWriteResults.h"
+	"Lfit.h"
+	"Fit.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1603155352 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\read_emsa_pixl.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<stdlib.h>
+	<string>
+	"read_EMSA_PIXL.h"
+	"XRFconditions.h"
+	"parse_records.h"
+	"upper_trim.h"
+
+1603155352 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\read_spectrum_file.cpp
+	<iostream>
+	<fstream>
+	"read_spectrum_file.h"
+	"AmpTekRead.h"
+	"borehole_read.h"
+	"read_EMSA_PIXL.h"
+	"read_XIA_PIXL.h"
+	"upper_trim.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\read_xia_pixl.h
+	<vector>
+	<string>
+	"XraySpectrum.h"
+
+1593462723 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\read_xia_pixl.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<stdlib.h>
+	"read_XIA_PIXL.h"
+	"upper_trim.h"
+
+1593462723 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\rebin.cpp
+	"rebin.h"
+	<math.h>
+	<cstdlib>
+
+1593462723 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\sampleedgelist.cpp
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XraySource.h"
+	"sampleEdgeList.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\scatterxsecttable.cpp
+	<iostream>
+	<ios>
+	<iosfwd>
+	"interp.h"
+	"XrayEdge.h"
+	"XRFconstants.h"
+	"ScatterXsectTable.h"
+	"scatxsct_data.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\scatxsct_data.h
+
+1606254277 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\setupstandardscsv.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	"upper_trim.h"
+	"parse_arguments.h"
+	"parse_records.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+	"setupStandardsCSV.h"
+
+1606254277 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\setupstandardstxt.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	"XRFutilities.h"
+	"setupStandardsTXT.h"
+
+1593462723 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\snip.cpp
+	<vector>
+	<cstdlib>
+	<math.h>
+	"snip.h"
+	<algorithm>
+
+1603728345 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\spline.cpp
+	<vector>
+	<string>
+	<exception>
+	"spline.h"
+
+1593462723 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\upper_trim.cpp
+	"upper_trim.h"
+	"XRFconstants.h"
+
+1603155352 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\write_conditions.cpp
+	<iostream>
+	<iomanip>
+	"read_EMSA_PIXL.h"
+	"write_conditions.h"
+
+1593462723 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\write_edrhistogram_data.cpp
+	<iostream>
+	<fstream>
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"write_EDRhistogram_data.h"
+
+1603155352 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xraydetector.cpp
+	<math.h>
+	"XrayDetector.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+	<sstream>
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrayedge.cpp
+	<string>
+	<vector>
+	<sstream>
+	"interp.h"
+	"Element.h"
+	"XrayEdge.h"
+	"CampbellWidthData_extrap_XrayEdge_Mar2012.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\campbellwidthdata_extrap_xrayedge_mar2012.h
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xraylines.cpp
+	<string>
+	<math.h>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"interp.h"
+	<sstream>
+
+1606254848 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xraymaterial.cpp
+	"XrayMaterial.h"
+	<math.h>
+	<sstream>
+	"XRFconstants.h"
+	"toStringHelpers.h"
+
+1604368020 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrayoptic.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<iomanip>
+	"stdlib.h"
+	"XrayOptic.h"
+	"spline.h"
+	"interp.h"
+	"Energy_vs_Efficiency_smoothed.h"
+	"Breadboard_optic_efficiency_May2017.h"
+	"FM_OpticResponse_Nov2020.h"
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\energy_vs_efficiency_smoothed.h
+
+1593462722 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\breadboard_optic_efficiency_may2017.h
+
+1603242289 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xraysource.cpp
+	<iostream>
+	<vector>
+	<math.h>
+	"XRFconstants.h"
+	"XraySource.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"interp.h"
+	"Sewell_tube_calc.h"
+	<sstream>
+
+1606842350 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrayspectrum.cpp
+	"XraySpectrum.h"
+	<math.h>
+	<sstream>
+	"toStringHelpers.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrayxsecttable.cpp
+	<iostream>
+	<ios>
+	<iosfwd>
+	"XrayXsectTable.h"
+	"xrayxsct_data_cmh.h"
+	"nofx.h"
+
+1593462723 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrayxsct_data_cmh.h
+
+1603155352 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrfutilities.cpp
+	<sstream>
+	<time.h>
+	<ctype.h>
+	"upper_trim.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\debug_stack.cpp
+	<iostream>
+	<execinfo.h>
+	<signal.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ucontext.h>
+	<unistd.h>
+	<cxxabi.h>
+
+1603155352 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\map_threading.cpp
+	"map_threading.h"
+	<sstream>
+	<mutex>
+	<thread>
+	<chrono>
+	"read_spectrum_file.h"
+	"fpSetupConditions.h"
+	"quantCombineSpectra.h"
+	"quantWriteMap.h"
+	"quantWriteResults.h"
+	"quantUnknown.h"
+	"read_EMSA_PIXL.h"
+	"setup_spectrum_parameters.h"
+	"time_code.h"
+	"read_PIXLISE_spectrum.h"
+
+1593732381 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\read_pixlise_spectrum.h
+	<string>
+	<vector>
+	"XraySpectrum.h"
+
+1593732381 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\read_pixlise_spectrum.cpp
+	"read_PIXLISE_spectrum.h"
+	<iostream>
+	<fstream>
+	<map>
+	"data-formats/experiment.pb.h"
+	"upper_trim.h"
+	"read_EMSA_PIXL.h"
+
+1603155352 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\setup_spectrum_parameters.cpp
+	"setup_spectrum_parameters.h"
+
+1603155352 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\spectrumbulksummax.cpp
+	<sstream>
+	"spectrumBulkSumMax.h"
+	"setup_spectrum_parameters.h"
+	"read_spectrum_file.h"
+	"quantCombineSpectra.h"
+
+1593462723 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\tostringhelpers.cpp
+	"toStringHelpers.h"
+	<sstream>
+
+1593462722 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\xrfconditions.cpp
+	"XRFconditions.h"
+	<sstream>
+	<string>
+
+1594079645 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\sewell_tube_calc.cpp
+	<math.h>
+	<iostream>
+	"Sewell_tube_calc.h"
+	"XRFconstants.h"
+
+1594079645 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\sewell_tube_calc.h
+
+1603155352 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\read_tube_spectrum.h
+	<string>
+	<vector>
+	"XrayLines.h"
+
+1603155352 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\read_tube_spectrum.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	"Element.h"
+	"XrayEdge.h"
+	"upper_trim.h"
+	"XRFconstants.h"
+	"parse_records.h"
+	"XRFutilities.h"
+	"read_tube_spectrum.h"
+
+1603324731 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\split_component.cpp
+	<vector>
+	<math.h>
+	"split_component.h"
+	<iostream>
+
+1604343260 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\split_component.h
+
+1603394563 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantopticresponse.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+	"fpMain.h"
+
+1604539336 source:c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\quantopticresponse.cpp
+	"quantOpticResponse.h"
+	"quantBackground.h"
+	"quantComponents.h"
+	"quantIgnore.h"
+	"quantCalculate.h"
+	"quantFitSpectrum.h"
+	"fpMain.h"
+	"fpLineSpectrum.h"
+	"Lfit.h"
+	"Fit.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"spline.h"
+	"fpBeams.h"
+
+1606928595 c:\users\tim\documents\piquant_gitlab_master_jun2020\piquant\src\fm_opticresponse_nov2020.h
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\amptekread.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	<stdlib.h>
+	<vector>
+	"AmpTekRead.h"
+	"Fit.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\amptekread.h
+	<vector>
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fit.h
+	<vector>
+
+1610583440 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\borehole_read.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<stdlib.h>
+	"borehole_read.h"
+	"XRFconditions.h"
+	"upper_trim.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\borehole_read.h
+	<vector>
+	<string>
+
+1603151752 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrfconditions.h
+	<vector>
+	<string>
+	"Element.h"
+	"XraySource.h"
+	"XrayOptic.h"
+	"XrayMaterial.h"
+	"XrayDetector.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\element.h
+	<string>
+
+1610393913 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xraysource.h
+	"XRFconstants.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XrayMaterial.h"
+
+1603151752 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrfconstants.h
+
+1603151752 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrayedge.h
+	<vector>
+	<string>
+	"Element.h"
+
+1606259436 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xraylines.h
+	<vector>
+	<string>
+	"XrayEdge.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrayxsecttable.h
+	<iostream>
+	<fstream>
+	<iomanip>
+	<vector>
+	<math.h>
+	"Element.h"
+	"spline.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\spline.h
+	<vector>
+
+1610413900 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xraymaterial.h
+	<vector>
+	"Element.h"
+	"XrayXsectTable.h"
+	"ScatterXsectTable.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\scatterxsecttable.h
+	<iostream>
+	<fstream>
+	<iomanip>
+	<vector>
+	<math.h>
+	"Element.h"
+
+1604335172 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrayoptic.h
+	<string>
+
+1607715589 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xraydetector.h
+	<vector>
+	"XRFconstants.h"
+	"XrayMaterial.h"
+	"XrayEdge.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\upper_trim.h
+	<string>
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\debug_stack.cpp
+	<iostream>
+	<execinfo.h>
+	<signal.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ucontext.h>
+	<unistd.h>
+	<cxxabi.h>
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\differentiate.cpp
+	"differentiate.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\differentiate.h
+	<vector>
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\element.cpp
+	<string>
+	"Element.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\energy_calibration.cpp
+	"energy_calibration.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\energy_calibration.h
+	<vector>
+	"parse_element_list.h"
+
+1609262823 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\parse_element_list.h
+	<string>
+	<vector>
+	"Element.h"
+	"XrayMaterial.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fit.cpp
+	<math.h>
+	"Fit.h"
+	<iostream>
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpbeams.cpp
+	"Element.h"
+	"XRFconstants.h"
+	"fpBeams.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpbeams.h
+	<vector>
+	"XRFconditions.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpck.cpp
+	"fpCK.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpck.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpconvolve.cpp
+	<iostream>
+	<vector>
+	<math.h>
+	"fpConvolve.h"
+	"XrayDetector.h"
+	"XRFcontrols.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpconvolve.h
+	"XraySpectrum.h"
+	"XrayDetector.h"
+
+1609780475 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrayspectrum.h
+	<vector>
+	<math.h>
+	"Element.h"
+	"quantComponents.h"
+
+1609794739 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantcomponents.h
+	<vector>
+	<string>
+	"Element.h"
+	"XrayLines.h"
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"parse_element_list.h"
+
+1610066128 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrfcontrols.h
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpedgeabsorption.cpp
+	"fpEdgeAbsorption.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpedgeabsorption.h
+	<vector>
+	"XrayXsectTable.h"
+	"XrayEdge.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpexcitation.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XraySource.h"
+	"nofx.h"
+	"fpExcitation.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\nofx.h
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpexcitation.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XraySource.h"
+
+1609958599 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fplinespectrum.cpp
+	<iostream>
+	<vector>
+	<math.h>
+	"fpLineSpectrum.h"
+	"XrayDetector.h"
+	"XRFcontrols.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fplinespectrum.h
+	<vector>
+	"XrayLines.h"
+	"XraySpectrum.h"
+	"XrayDetector.h"
+
+1610064085 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpmain.cpp
+	<sstream>
+	<iostream>
+	<vector>
+	<algorithm>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XraySource.h"
+	"XrayXsectTable.h"
+	"ScatterXsectTable.h"
+	"XRFconstants.h"
+	"sampleEdgeList.h"
+	"fpExcitation.h"
+	"fpEdgeAbsorption.h"
+	"fpPrimary.h"
+	"fpSecondary.h"
+	"fpCK.h"
+	"fpMain.h"
+	"fpBeams.h"
+	"XRFcontrols.h"
+	"XrayOptic.h"
+	"toStringHelpers.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\sampleedgelist.h
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpprimary.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpsecondary.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1606259436 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpmain.h
+	<vector>
+	"XRFconditions.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XraySpectrum.h"
+	"XrayXsectTable.h"
+	"ScatterXsectTable.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\tostringhelpers.h
+	"Element.h"
+	<vector>
+	<string>
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpoxide.cpp
+	"fpOxide.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpoxide.h
+	<vector>
+	"Element.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpprimary.cpp
+	"fpPrimary.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpprimarylines.cpp
+	<iostream>
+	"Element.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+	"fpBeams.h"
+	"fpPrimaryLines.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpprimarylines.h
+	<vector>
+	"XRFconditions.h"
+	"XrayLines.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fppure.cpp
+	"fpPure.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fppure.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpsecondary.cpp
+	"fpSecondary.h"
+
+1608083334 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpsetupconditions.cpp
+	"Element.h"
+	"XRFconstants.h"
+	"XrayDetector.h"
+	"read_tube_spectrum.h"
+	"parse_element_list.h"
+	"fpSetupConditions.h"
+
+1603151752 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\read_tube_spectrum.h
+	<string>
+	<vector>
+	"XrayLines.h"
+
+1603151752 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fpsetupconditions.h
+	<vector>
+	<string>
+	"XRFconditions.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\histogram_from_sdd_data.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"parse_records.h"
+	"histogram_from_SDD_data.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\parse_records.h
+	<string>
+	<vector>
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\histogram_from_sdd_data.h
+	<vector>
+	<string>
+	"XraySpectrum.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\interp.cpp
+	"interp.h"
+	<string>
+	<cmath>
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\interp.h
+	<iostream>
+	<vector>
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\lfit.cpp
+	"Lfit.h"
+	"XRFconstants.h"
+	<math.h>
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\lfit.h
+	<vector>
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\map_spectrum_file_increment.cpp
+	<iostream>
+	<sstream>
+	<math.h>
+	"XRFconstants.h"
+	"map_spectrum_file_increment.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\map_spectrum_file_increment.h
+	<string>
+
+1603151752 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\map_threading.cpp
+	"map_threading.h"
+	<sstream>
+	<mutex>
+	<thread>
+	<chrono>
+	"read_spectrum_file.h"
+	"fpSetupConditions.h"
+	"quantCombineSpectra.h"
+	"quantWriteMap.h"
+	"quantWriteResults.h"
+	"quantUnknown.h"
+	"read_EMSA_PIXL.h"
+	"setup_spectrum_parameters.h"
+	"time_code.h"
+	"read_PIXLISE_spectrum.h"
+
+1603151752 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\map_threading.h
+	<iostream>
+	<vector>
+	<string>
+	"parse_arguments.h"
+	"parse_element_list.h"
+	"XraySpectrum.h"
+
+1610066128 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\parse_arguments.h
+	<string>
+	<vector>
+	"XRFcontrols.h"
+
+1603151752 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\read_spectrum_file.h
+	<string>
+	<vector>
+	"XraySpectrum.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantcombinespectra.h
+	<vector>
+	"XraySpectrum.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantwritemap.h
+	<string>
+	"XrayMaterial.h"
+	"XrayDetector.h"
+	"XraySpectrum.h"
+
+1606254277 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantwriteresults.h
+	<ostream>
+	<vector>
+	"Element.h"
+	"parse_element_list.h"
+	"XrayMaterial.h"
+	"XrayDetector.h"
+	"XraySpectrum.h"
+
+1608163394 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantunknown.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1610413761 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\read_emsa_pixl.h
+	<vector>
+	<string>
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1603151752 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\setup_spectrum_parameters.h
+	<vector>
+	<string>
+	<ostream>
+	"parse_arguments.h"
+	"XraySpectrum.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\time_code.h
+	<chrono>
+
+1593728781 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\read_pixlise_spectrum.h
+	<string>
+	<vector>
+	"XraySpectrum.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\nofx.cpp
+	<vector>
+	<math.h>
+	"nofx.h"
+
+1610066128 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\parse_arguments.cpp
+	<iostream>
+	<sstream>
+	"parse_arguments.h"
+	"parse_records.h"
+	"upper_trim.h"
+	"XRFconstants.h"
+
+1608163418 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\parse_element_list.cpp
+	<iostream>
+	<sstream>
+	"parse_element_list.h"
+	"parse_records.h"
+	"upper_trim.h"
+	"XRFutilities.h"
+	"XRFconstants.h"
+
+1608141323 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrfutilities.h
+	<string>
+	<vector>
+	"Element.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\parse_records.cpp
+	<iostream>
+	"parse_records.h"
+	"XRFconstants.h"
+
+1610584873 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\piquant_commandline.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	<stdlib.h>
+	<vector>
+	<math.h>
+	<time.h>
+	"parse_arguments.h"
+	"parse_element_list.h"
+	"read_spectrum_file.h"
+	"setupStandardsTXT.h"
+	"setupStandardsCSV.h"
+	"Element.h"
+	"borehole_read.h"
+	"read_EMSA_PIXL.h"
+	"map_spectrum_file_increment.h"
+	"energy_calibration.h"
+	"fpSetupConditions.h"
+	"quantBackground.h"
+	"quantCalculate.h"
+	"quantPrimarySpec.h"
+	"split_component.h"
+	"quantOpticResponse.h"
+	"quantStandard.h"
+	"quantUnknown.h"
+	"quantWriteResults.h"
+	"quantWriteCalibrationTXT.h"
+	"quantWriteCalibrationCSV.h"
+	"quantWriteMap.h"
+	"quantWritePlot.h"
+	"XraySpectrum.h"
+	"upper_trim.h"
+	"fpMain.h"
+	"XRFconditions.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+	"write_conditions.h"
+	"quantCombineSpectra.h"
+	"histogram_from_SDD_data.h"
+	"write_EDRhistogram_data.h"
+	"spectrumBulkSumMax.h"
+	"time_code.h"
+	"debug_stack.h"
+	"map_threading.h"
+	"setup_spectrum_parameters.h"
+	<mutex>
+	<thread>
+	<chrono>
+	"fpBeams.h"
+	"version.h"
+	"split_component.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\setupstandardstxt.h
+	<iostream>
+	<vector>
+	<string>
+	"XRFstandards.h"
+
+1608159784 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrfstandards.h
+	"XrayMaterial.h"
+	"XraySpectrum.h"
+	"parse_element_list.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\setupstandardscsv.h
+	<iostream>
+	<vector>
+	<string>
+	"XRFstandards.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantbackground.h
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1603390963 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantcalculate.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+	"fpMain.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantprimaryspec.h
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1604343260 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\split_component.h
+
+1603390963 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantopticresponse.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+	"fpMain.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantstandard.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+	"fpMain.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantwritecalibrationtxt.h
+	<vector>
+	<string>
+	"setupStandardsTXT.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantwritecalibrationcsv.h
+	<vector>
+	<string>
+	"XRFstandards.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantwriteplot.h
+	"parse_arguments.h"
+	"XraySpectrum.h"
+
+1603151752 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\write_conditions.h
+	"XRFconditions.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\write_edrhistogram_data.h
+	<string>
+	"XraySpectrum.h"
+
+1603151752 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\spectrumbulksummax.h
+	<string>
+	<vector>
+	"XraySpectrum.h"
+	"parse_arguments.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\debug_stack.h
+
+1610069219 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\build\version.h
+
+1609894414 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantbackground.cpp
+	"quantBackground.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"snip.h"
+	"split_component.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\snip.h
+	<vector>
+
+1610413681 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantcalculate.cpp
+	"quantCalculate.h"
+	"fpLineSpectrum.h"
+	"fpMain.h"
+	"fpConvolve.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"quantComponents.h"
+	"split_component.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantcombinespectra.cpp
+	"quantCombineSpectra.h"
+	"rebin.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\rebin.h
+	<vector>
+
+1610394602 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantcomponents.cpp
+	<iostream>
+	<sstream>
+	"upper_trim.h"
+	"fpMain.h"
+	"quantComponents.h"
+	"toStringHelpers.h"
+
+1609891591 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantecfs.cpp
+	"quantECFs.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"interp.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantecfs.h
+	<vector>
+	"Element.h"
+	"XRFstandards.h"
+
+1609205895 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantfitspectrum.cpp
+	"quantFitSpectrum.h"
+	"Lfit.h"
+	"Fit.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantfitspectrum.h
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1593459123 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantignore.cpp
+	"quantIgnore.h"
+	"quantComponents.h"
+	"fpMain.h"
+	"fpLineSpectrum.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantignore.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+	"XrayLines.h"
+
+1610394602 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantopticresponse.cpp
+	"quantOpticResponse.h"
+	"quantBackground.h"
+	"quantComponents.h"
+	"quantIgnore.h"
+	"quantCalculate.h"
+	"quantFitSpectrum.h"
+	"fpMain.h"
+	"fpLineSpectrum.h"
+	"Lfit.h"
+	"Fit.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"spline.h"
+	"fpBeams.h"
+
+1610413681 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantprimaryspec.cpp
+	<iostream>
+	"Element.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"fpBeams.h"
+	"fpLineSpectrum.h"
+	"fpConvolve.h"
+	"quantPrimarySpec.h"
+
+1609376895 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantstandard.cpp
+	"quantStandard.h"
+	"quantBackground.h"
+	"quantComponents.h"
+	"quantIgnore.h"
+	"quantCalculate.h"
+	"quantFitSpectrum.h"
+	"fpMain.h"
+	"fpLineSpectrum.h"
+	"fpConvolve.h"
+	"Lfit.h"
+	"Fit.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1609777282 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantunknown.cpp
+	"quantUnknown.h"
+	"quantWriteCalibrationTXT.h"
+	"quantBackground.h"
+	"quantComponents.h"
+	"quantIgnore.h"
+	"quantCalculate.h"
+	"quantFitSpectrum.h"
+	"setupStandardsCSV.h"
+	"quantECFs.h"
+	"fpMain.h"
+	"fpLineSpectrum.h"
+	"Lfit.h"
+	"Fit.h"
+	"upper_trim.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1610395160 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantwritecalibrationcsv.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"quantWriteCalibrationCSV.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1593459123 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantwritecalibrationtxt.cpp
+	<algorithm>
+	"quantWriteCalibrationTXT.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"upper_trim.h"
+
+1608141323 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantwritemap.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	"quantWriteMap.h"
+	"quantWriteResults.h"
+	"XrayMaterial.h"
+	"upper_trim.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1609273210 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantwriteplot.cpp
+	"quantWritePlot.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1610059740 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\quantwriteresults.cpp
+	"quantWriteResults.h"
+	"Lfit.h"
+	"Fit.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1610413761 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\read_emsa_pixl.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<stdlib.h>
+	<string>
+	"read_EMSA_PIXL.h"
+	"XRFconditions.h"
+	"parse_records.h"
+	"upper_trim.h"
+
+1610413533 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\read_pixlise_spectrum.cpp
+	"read_PIXLISE_spectrum.h"
+	<iostream>
+	<fstream>
+	<map>
+	"data-formats/experiment.pb.h"
+	"upper_trim.h"
+	"read_EMSA_PIXL.h"
+
+1603151752 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\read_spectrum_file.cpp
+	<iostream>
+	<fstream>
+	"read_spectrum_file.h"
+	"AmpTekRead.h"
+	"borehole_read.h"
+	"read_EMSA_PIXL.h"
+	"read_XIA_PIXL.h"
+	"upper_trim.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\read_xia_pixl.h
+	<vector>
+	<string>
+	"XraySpectrum.h"
+
+1603151752 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\read_tube_spectrum.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	"Element.h"
+	"XrayEdge.h"
+	"upper_trim.h"
+	"XRFconstants.h"
+	"parse_records.h"
+	"XRFutilities.h"
+	"read_tube_spectrum.h"
+
+1593459123 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\read_xia_pixl.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<stdlib.h>
+	"read_XIA_PIXL.h"
+	"upper_trim.h"
+
+1593459123 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\rebin.cpp
+	"rebin.h"
+	<math.h>
+	<cstdlib>
+
+1593459123 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\sampleedgelist.cpp
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XraySource.h"
+	"sampleEdgeList.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\scatterxsecttable.cpp
+	<iostream>
+	<ios>
+	<iosfwd>
+	"interp.h"
+	"XrayEdge.h"
+	"XRFconstants.h"
+	"ScatterXsectTable.h"
+	"scatxsct_data.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\scatxsct_data.h
+
+1610583440 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\setup_spectrum_parameters.cpp
+	"setup_spectrum_parameters.h"
+
+1608170773 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\setupstandardscsv.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	"upper_trim.h"
+	"parse_arguments.h"
+	"parse_records.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+	"setupStandardsCSV.h"
+
+1606254277 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\setupstandardstxt.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	"XRFutilities.h"
+	"setupStandardsTXT.h"
+
+1610393532 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\sewell_tube_calc.cpp
+	<math.h>
+	<iostream>
+	"Sewell_tube_calc.h"
+	"XRFconstants.h"
+
+1594076045 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\sewell_tube_calc.h
+
+1593459123 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\snip.cpp
+	<vector>
+	<cstdlib>
+	<math.h>
+	"snip.h"
+	<algorithm>
+
+1603151752 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\spectrumbulksummax.cpp
+	<sstream>
+	"spectrumBulkSumMax.h"
+	"setup_spectrum_parameters.h"
+	"read_spectrum_file.h"
+	"quantCombineSpectra.h"
+
+1603724745 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\spline.cpp
+	<vector>
+	<string>
+	<exception>
+	"spline.h"
+
+1610583440 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\split_component.cpp
+	<vector>
+	<math.h>
+	"split_component.h"
+	<iostream>
+
+1593459123 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\tostringhelpers.cpp
+	"toStringHelpers.h"
+	<sstream>
+
+1593459123 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\upper_trim.cpp
+	"upper_trim.h"
+	"XRFconstants.h"
+
+1603151752 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\write_conditions.cpp
+	<iostream>
+	<iomanip>
+	"read_EMSA_PIXL.h"
+	"write_conditions.h"
+
+1593459123 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\write_edrhistogram_data.cpp
+	<iostream>
+	<fstream>
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"write_EDRhistogram_data.h"
+
+1610393532 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xraydetector.cpp
+	<math.h>
+	"XrayDetector.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+	<sstream>
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrayedge.cpp
+	<string>
+	<vector>
+	<sstream>
+	"interp.h"
+	"Element.h"
+	"XrayEdge.h"
+	"CampbellWidthData_extrap_XrayEdge_Mar2012.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\campbellwidthdata_extrap_xrayedge_mar2012.h
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xraylines.cpp
+	<string>
+	<math.h>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"interp.h"
+	<sstream>
+
+1610413900 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xraymaterial.cpp
+	"XrayMaterial.h"
+	<math.h>
+	<sstream>
+	"XRFconstants.h"
+	"toStringHelpers.h"
+
+1609293691 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrayoptic.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<iomanip>
+	"stdlib.h"
+	"XrayOptic.h"
+	"spline.h"
+	"interp.h"
+	"Energy_vs_Efficiency_smoothed.h"
+	"Breadboard_optic_efficiency_May2017.h"
+	"FM_OpticResponse_Nov2020.h"
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\energy_vs_efficiency_smoothed.h
+
+1593459122 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\breadboard_optic_efficiency_may2017.h
+
+1609379566 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\fm_opticresponse_nov2020.h
+
+1610393913 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xraysource.cpp
+	<iostream>
+	<vector>
+	<math.h>
+	"XRFconstants.h"
+	"XraySource.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"interp.h"
+	"Sewell_tube_calc.h"
+	<sstream>
+
+1610394026 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrayspectrum.cpp
+	"XraySpectrum.h"
+	<math.h>
+	<sstream>
+	"toStringHelpers.h"
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrayxsecttable.cpp
+	<iostream>
+	<ios>
+	<iosfwd>
+	"XrayXsectTable.h"
+	"xrayxsct_data_cmh.h"
+	"nofx.h"
+
+1593459123 c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrayxsct_data_cmh.h
+
+1593459122 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrfconditions.cpp
+	"XRFconditions.h"
+	<sstream>
+	<string>
+
+1608141323 source:c:\users\wtelam\documents\piquant_gitlab_master_jun2020\piquant\src\xrfutilities.cpp
+	<sstream>
+	<time.h>
+	<ctype.h>
+	"upper_trim.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\amptekread.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	<stdlib.h>
+	<vector>
+	"AmpTekRead.h"
+	"Fit.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\amptekread.h
+	<vector>
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fit.h
+	<vector>
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\borehole_read.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<stdlib.h>
+	"borehole_read.h"
+	"XRFconditions.h"
+	"upper_trim.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\borehole_read.h
+	<vector>
+	<string>
+
+1624806818 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrfconditions.h
+	<vector>
+	<string>
+	"Element.h"
+	"XraySource.h"
+	"XrayOptic.h"
+	"XrayMaterial.h"
+	"XrayDetector.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\element.h
+	<string>
+
+1624806818 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xraysource.h
+	"XRFconstants.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XrayMaterial.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrfconstants.h
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrayedge.h
+	<vector>
+	<string>
+	"Element.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xraylines.h
+	<vector>
+	<string>
+	"XrayEdge.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrayxsecttable.h
+	<iostream>
+	<fstream>
+	<iomanip>
+	<vector>
+	<math.h>
+	"Element.h"
+	"spline.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\spline.h
+	<vector>
+
+1625847669 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xraymaterial.h
+	<vector>
+	"Element.h"
+	"XrayXsectTable.h"
+	"ScatterXsectTable.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\scatterxsecttable.h
+	<iostream>
+	<fstream>
+	<iomanip>
+	<vector>
+	<math.h>
+	"Element.h"
+
+1624806818 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrayoptic.h
+	<string>
+
+1625932389 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xraydetector.h
+	<vector>
+	"XRFconstants.h"
+	"XrayMaterial.h"
+	"XrayEdge.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\upper_trim.h
+	<string>
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\debug_stack.cpp
+	<iostream>
+	<execinfo.h>
+	<signal.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ucontext.h>
+	<unistd.h>
+	<cxxabi.h>
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\differentiate.cpp
+	"differentiate.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\differentiate.h
+	<vector>
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\element.cpp
+	<string>
+	"Element.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\energy_calibration.cpp
+	"energy_calibration.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\energy_calibration.h
+	<vector>
+	"parse_element_list.h"
+
+1625930409 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\parse_element_list.h
+	<string>
+	<vector>
+	"Element.h"
+	"XrayMaterial.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fit.cpp
+	<math.h>
+	"Fit.h"
+	<iostream>
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpbeams.cpp
+	"Element.h"
+	"XRFconstants.h"
+	"fpBeams.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpbeams.h
+	<vector>
+	"XRFconditions.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpck.cpp
+	"fpCK.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpck.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpconvolve.cpp
+	<iostream>
+	<vector>
+	<math.h>
+	"fpConvolve.h"
+	"XrayDetector.h"
+	"XRFcontrols.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpconvolve.h
+	"XraySpectrum.h"
+	"XrayDetector.h"
+
+1624806818 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrayspectrum.h
+	<vector>
+	<math.h>
+	"Element.h"
+	"quantComponents.h"
+
+1625930409 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantcomponents.h
+	<vector>
+	<string>
+	"Element.h"
+	"XrayLines.h"
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"parse_element_list.h"
+
+1625961817 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrfcontrols.h
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpedgeabsorption.cpp
+	"fpEdgeAbsorption.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpedgeabsorption.h
+	<vector>
+	"XrayXsectTable.h"
+	"XrayEdge.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpexcitation.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XraySource.h"
+	"nofx.h"
+	"fpExcitation.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\nofx.h
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpexcitation.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XraySource.h"
+
+1625936346 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fplinespectrum.cpp
+	<iostream>
+	<vector>
+	<math.h>
+	"fpConvolve.h"
+	"XrayDetector.h"
+	"XRFcontrols.h"
+	"fpLineSpectrum.h"
+
+1625931507 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fplinespectrum.h
+	<vector>
+	"XrayLines.h"
+	"XraySpectrum.h"
+	"XrayDetector.h"
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpmain.cpp
+	<sstream>
+	<iostream>
+	<vector>
+	<algorithm>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XraySource.h"
+	"XrayXsectTable.h"
+	"ScatterXsectTable.h"
+	"XRFconstants.h"
+	"sampleEdgeList.h"
+	"fpExcitation.h"
+	"fpEdgeAbsorption.h"
+	"fpPrimary.h"
+	"fpSecondary.h"
+	"fpCK.h"
+	"fpMain.h"
+	"fpBeams.h"
+	"XRFcontrols.h"
+	"XrayOptic.h"
+	"toStringHelpers.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\sampleedgelist.h
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpprimary.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpsecondary.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpmain.h
+	<vector>
+	"XRFconditions.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XraySpectrum.h"
+	"XrayXsectTable.h"
+	"ScatterXsectTable.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\tostringhelpers.h
+	"Element.h"
+	<vector>
+	<string>
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpoxide.cpp
+	"fpOxide.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpoxide.h
+	<vector>
+	"Element.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpprimary.cpp
+	"fpPrimary.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpprimarylines.cpp
+	<iostream>
+	"Element.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+	"fpBeams.h"
+	"fpPrimaryLines.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpprimarylines.h
+	<vector>
+	"XRFconditions.h"
+	"XrayLines.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fppure.cpp
+	"fpPure.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fppure.h
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"XRFconstants.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpsecondary.cpp
+	"fpSecondary.h"
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpsetupconditions.cpp
+	"Element.h"
+	"XRFconstants.h"
+	"XrayDetector.h"
+	"read_tube_spectrum.h"
+	"parse_element_list.h"
+	"fpSetupConditions.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\read_tube_spectrum.h
+	<string>
+	<vector>
+	"XrayLines.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fpsetupconditions.h
+	<vector>
+	<string>
+	"XRFconditions.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\histogram_from_sdd_data.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"parse_records.h"
+	"histogram_from_SDD_data.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\parse_records.h
+	<string>
+	<vector>
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\histogram_from_sdd_data.h
+	<vector>
+	<string>
+	"XraySpectrum.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\interp.cpp
+	"interp.h"
+	<string>
+	<cmath>
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\interp.h
+	<iostream>
+	<vector>
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\lfit.cpp
+	"Lfit.h"
+	"XRFconstants.h"
+	<math.h>
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\lfit.h
+	<vector>
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\map_spectrum_file_increment.cpp
+	<iostream>
+	<sstream>
+	<math.h>
+	"XRFconstants.h"
+	"map_spectrum_file_increment.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\map_spectrum_file_increment.h
+	<string>
+
+1624809437 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\map_threading.cpp
+	"map_threading.h"
+	<sstream>
+	<mutex>
+	<thread>
+	<chrono>
+	"read_spectrum_file.h"
+	"fpSetupConditions.h"
+	"quantCombineSpectra.h"
+	"quantWriteMap.h"
+	"quantWriteResults.h"
+	"quantUnknown.h"
+	"read_EMSA_PIXL.h"
+	"setup_spectrum_parameters.h"
+	"time_code.h"
+	"read_PIXLISE_spectrum.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\map_threading.h
+	<iostream>
+	<vector>
+	<string>
+	"parse_arguments.h"
+	"parse_element_list.h"
+	"XraySpectrum.h"
+
+1625847340 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\parse_arguments.h
+	<string>
+	<vector>
+	"XRFcontrols.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\read_spectrum_file.h
+	<string>
+	<vector>
+	"XraySpectrum.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantcombinespectra.h
+	<vector>
+	"XraySpectrum.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantwritemap.h
+	<string>
+	"XrayMaterial.h"
+	"XrayDetector.h"
+	"XraySpectrum.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantwriteresults.h
+	<ostream>
+	<vector>
+	"Element.h"
+	"parse_element_list.h"
+	"XrayMaterial.h"
+	"XrayDetector.h"
+	"XraySpectrum.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantunknown.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\read_emsa_pixl.h
+	<vector>
+	<string>
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\setup_spectrum_parameters.h
+	<vector>
+	<string>
+	<ostream>
+	"parse_arguments.h"
+	"XraySpectrum.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\time_code.h
+	<chrono>
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\read_pixlise_spectrum.h
+	<string>
+	<vector>
+	"XraySpectrum.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\nofx.cpp
+	<vector>
+	<math.h>
+	"nofx.h"
+
+1625847340 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\parse_arguments.cpp
+	<iostream>
+	<sstream>
+	"parse_arguments.h"
+	"parse_records.h"
+	"upper_trim.h"
+	"XRFconstants.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\parse_element_list.cpp
+	<iostream>
+	<sstream>
+	"parse_element_list.h"
+	"parse_records.h"
+	"upper_trim.h"
+	"XRFutilities.h"
+	"XRFconstants.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrfutilities.h
+	<string>
+	<vector>
+	"Element.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\parse_records.cpp
+	<iostream>
+	"parse_records.h"
+	"XRFconstants.h"
+
+1625930409 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\piquant_commandline.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	<stdlib.h>
+	<vector>
+	<math.h>
+	<time.h>
+	"parse_arguments.h"
+	"parse_element_list.h"
+	"read_spectrum_file.h"
+	"setupStandardsTXT.h"
+	"setupStandardsCSV.h"
+	"Element.h"
+	"borehole_read.h"
+	"read_EMSA_PIXL.h"
+	"map_spectrum_file_increment.h"
+	"energy_calibration.h"
+	"fpSetupConditions.h"
+	"quantBackground.h"
+	"quantCalculate.h"
+	"quantPrimarySpec.h"
+	"split_component.h"
+	"quantOpticResponse.h"
+	"quantStandard.h"
+	"quantUnknown.h"
+	"quantWriteResults.h"
+	"quantWriteCalibrationTXT.h"
+	"quantWriteCalibrationCSV.h"
+	"quantWriteMap.h"
+	"quantWritePlot.h"
+	"XraySpectrum.h"
+	"upper_trim.h"
+	"fpMain.h"
+	"XRFconditions.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+	"write_conditions.h"
+	"quantCombineSpectra.h"
+	"histogram_from_SDD_data.h"
+	"write_EDRhistogram_data.h"
+	"spectrumBulkSumMax.h"
+	"time_code.h"
+	"debug_stack.h"
+	"map_threading.h"
+	"setup_spectrum_parameters.h"
+	<mutex>
+	<thread>
+	<chrono>
+	"fpBeams.h"
+	"version.h"
+	"split_component.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\setupstandardstxt.h
+	<iostream>
+	<vector>
+	<string>
+	"XRFstandards.h"
+
+1624806818 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrfstandards.h
+	"XrayMaterial.h"
+	"XraySpectrum.h"
+	"parse_element_list.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\setupstandardscsv.h
+	<iostream>
+	<vector>
+	<string>
+	"XRFstandards.h"
+
+1624806818 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantbackground.h
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1624806818 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantcalculate.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+	"fpMain.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantprimaryspec.h
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\split_component.h
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantopticresponse.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+	"fpMain.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantstandard.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+	"fpMain.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantwritecalibrationtxt.h
+	<vector>
+	<string>
+	"setupStandardsTXT.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantwritecalibrationcsv.h
+	<vector>
+	<string>
+	"XRFstandards.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantwriteplot.h
+	"parse_arguments.h"
+	"XraySpectrum.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\write_conditions.h
+	"XRFconditions.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\write_edrhistogram_data.h
+	<string>
+	"XraySpectrum.h"
+
+1624806818 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\spectrumbulksummax.h
+	<string>
+	<vector>
+	"XraySpectrum.h"
+	"parse_arguments.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\debug_stack.h
+
+1625935132 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\build\version.h
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantbackground.cpp
+	"quantBackground.h"
+	"quantComponents.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"snip.h"
+	"split_component.h"
+	"scale_under_peaks.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\snip.h
+	<vector>
+
+1625948504 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantcalculate.cpp
+	"quantCalculate.h"
+	"fpLineSpectrum.h"
+	"fpMain.h"
+	"fpConvolve.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"quantComponents.h"
+	"split_component.h"
+	"scale_under_peaks.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantcombinespectra.cpp
+	"quantCombineSpectra.h"
+	"rebin.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\rebin.h
+	<vector>
+
+1625930409 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantcomponents.cpp
+	<iostream>
+	<sstream>
+	"upper_trim.h"
+	"fpMain.h"
+	"quantComponents.h"
+	"XRFcontrols.h"
+	"toStringHelpers.h"
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantecfs.cpp
+	"quantECFs.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"interp.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantecfs.h
+	<vector>
+	"Element.h"
+	"XRFstandards.h"
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantfitspectrum.cpp
+	"quantFitSpectrum.h"
+	"Lfit.h"
+	"Fit.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantfitspectrum.h
+	"XRFconditions.h"
+	"XraySpectrum.h"
+
+1625932027 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantignore.cpp
+	"quantIgnore.h"
+	"quantComponents.h"
+	"fpMain.h"
+	"fpLineSpectrum.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantignore.h
+	<vector>
+	"XrayMaterial.h"
+	"XRFconditions.h"
+	"XraySpectrum.h"
+	"XrayLines.h"
+
+1625932027 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantopticresponse.cpp
+	"quantOpticResponse.h"
+	"quantBackground.h"
+	"quantComponents.h"
+	"quantIgnore.h"
+	"quantCalculate.h"
+	"quantFitSpectrum.h"
+	"fpMain.h"
+	"fpLineSpectrum.h"
+	"Lfit.h"
+	"Fit.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"spline.h"
+	"fpBeams.h"
+
+1625932027 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantprimaryspec.cpp
+	<iostream>
+	"Element.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"fpBeams.h"
+	"fpLineSpectrum.h"
+	"fpConvolve.h"
+	"quantPrimarySpec.h"
+
+1625932027 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantstandard.cpp
+	"quantStandard.h"
+	"quantBackground.h"
+	"quantComponents.h"
+	"quantIgnore.h"
+	"quantCalculate.h"
+	"quantFitSpectrum.h"
+	"fpMain.h"
+	"fpLineSpectrum.h"
+	"fpConvolve.h"
+	"Lfit.h"
+	"Fit.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1625932027 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantunknown.cpp
+	"quantUnknown.h"
+	"quantWriteCalibrationTXT.h"
+	"quantBackground.h"
+	"quantComponents.h"
+	"quantIgnore.h"
+	"quantCalculate.h"
+	"quantFitSpectrum.h"
+	"setupStandardsCSV.h"
+	"quantECFs.h"
+	"fpMain.h"
+	"fpLineSpectrum.h"
+	"Lfit.h"
+	"Fit.h"
+	"upper_trim.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantwritecalibrationcsv.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"quantWriteCalibrationCSV.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantwritecalibrationtxt.cpp
+	<algorithm>
+	"quantWriteCalibrationTXT.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"upper_trim.h"
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantwritemap.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	"quantWriteMap.h"
+	"quantWriteResults.h"
+	"XrayMaterial.h"
+	"upper_trim.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantwriteplot.cpp
+	"quantWritePlot.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+
+1624809437 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\quantwriteresults.cpp
+	"quantWriteResults.h"
+	"Lfit.h"
+	"Fit.h"
+	"differentiate.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+	"spline.h"
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\read_emsa_pixl.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<stdlib.h>
+	<string>
+	"read_EMSA_PIXL.h"
+	"XRFconditions.h"
+	"parse_records.h"
+	"upper_trim.h"
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\read_pixlise_spectrum.cpp
+	"read_PIXLISE_spectrum.h"
+	<iostream>
+	<fstream>
+	<map>
+	"data-formats/experiment.pb.h"
+	"upper_trim.h"
+	"read_EMSA_PIXL.h"
+
+1623198256 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\read_spectrum_file.cpp
+	<iostream>
+	<fstream>
+	"read_spectrum_file.h"
+	"AmpTekRead.h"
+	"borehole_read.h"
+	"read_EMSA_PIXL.h"
+	"read_XIA_PIXL.h"
+	"upper_trim.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\read_xia_pixl.h
+	<vector>
+	<string>
+	"XraySpectrum.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\read_tube_spectrum.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	"Element.h"
+	"XrayEdge.h"
+	"upper_trim.h"
+	"XRFconstants.h"
+	"parse_records.h"
+	"XRFutilities.h"
+	"read_tube_spectrum.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\read_xia_pixl.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<stdlib.h>
+	"read_XIA_PIXL.h"
+	"upper_trim.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\rebin.cpp
+	"rebin.h"
+	<math.h>
+	<cstdlib>
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\sampleedgelist.cpp
+	<vector>
+	"Element.h"
+	"XrayEdge.h"
+	"XraySource.h"
+	"sampleEdgeList.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\scatterxsecttable.cpp
+	<iostream>
+	<ios>
+	<iosfwd>
+	"interp.h"
+	"XrayEdge.h"
+	"XRFconstants.h"
+	"ScatterXsectTable.h"
+	"scatxsct_data.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\scatxsct_data.h
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\setup_spectrum_parameters.cpp
+	"setup_spectrum_parameters.h"
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\setupstandardscsv.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	"upper_trim.h"
+	"parse_arguments.h"
+	"parse_records.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+	"setupStandardsCSV.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\setupstandardstxt.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<sstream>
+	"XRFutilities.h"
+	"setupStandardsTXT.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\sewell_tube_calc.cpp
+	<math.h>
+	<iostream>
+	"Sewell_tube_calc.h"
+	"XRFconstants.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\sewell_tube_calc.h
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\snip.cpp
+	<vector>
+	<cstdlib>
+	<math.h>
+	"snip.h"
+	<algorithm>
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\spectrumbulksummax.cpp
+	<sstream>
+	"spectrumBulkSumMax.h"
+	"setup_spectrum_parameters.h"
+	"read_spectrum_file.h"
+	"quantCombineSpectra.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\spline.cpp
+	<vector>
+	<string>
+	<exception>
+	"spline.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\split_component.cpp
+	<vector>
+	<math.h>
+	"split_component.h"
+	<iostream>
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\tostringhelpers.cpp
+	"toStringHelpers.h"
+	<sstream>
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\upper_trim.cpp
+	"upper_trim.h"
+	"XRFconstants.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\write_conditions.cpp
+	<iostream>
+	<iomanip>
+	"read_EMSA_PIXL.h"
+	"write_conditions.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\write_edrhistogram_data.cpp
+	<iostream>
+	<fstream>
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"write_EDRhistogram_data.h"
+
+1625932389 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xraydetector.cpp
+	<math.h>
+	"XrayDetector.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XRFconstants.h"
+	<sstream>
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrayedge.cpp
+	<string>
+	<vector>
+	<sstream>
+	"interp.h"
+	"Element.h"
+	"XrayEdge.h"
+	"CampbellWidthData_extrap_XrayEdge_Mar2012.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\campbellwidthdata_extrap_xrayedge_mar2012.h
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xraylines.cpp
+	<string>
+	<math.h>
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"interp.h"
+	<sstream>
+
+1625847669 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xraymaterial.cpp
+	"XrayMaterial.h"
+	<math.h>
+	<sstream>
+	"XRFconstants.h"
+	"toStringHelpers.h"
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrayoptic.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<iomanip>
+	"stdlib.h"
+	"XrayOptic.h"
+	"spline.h"
+	"interp.h"
+	"Energy_vs_Efficiency_smoothed.h"
+	"Breadboard_optic_efficiency_May2017.h"
+	"FM_OpticResponse_Nov2020.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\energy_vs_efficiency_smoothed.h
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\breadboard_optic_efficiency_may2017.h
+
+1624806818 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\fm_opticresponse_nov2020.h
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xraysource.cpp
+	<iostream>
+	<vector>
+	<math.h>
+	"XRFconstants.h"
+	"XraySource.h"
+	"Element.h"
+	"XrayEdge.h"
+	"XrayLines.h"
+	"XrayXsectTable.h"
+	"interp.h"
+	"Sewell_tube_calc.h"
+	<sstream>
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrayspectrum.cpp
+	"XraySpectrum.h"
+	<math.h>
+	<sstream>
+	"toStringHelpers.h"
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrayxsecttable.cpp
+	<iostream>
+	<ios>
+	<iosfwd>
+	"XrayXsectTable.h"
+	"xrayxsct_data_cmh.h"
+	"nofx.h"
+
+1611957676 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrayxsct_data_cmh.h
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrfconditions.cpp
+	"XRFconditions.h"
+	<sstream>
+	<string>
+
+1611957676 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\xrfutilities.cpp
+	<sstream>
+	<time.h>
+	<ctype.h>
+	"upper_trim.h"
+	"XRFconstants.h"
+	"XRFcontrols.h"
+	"XRFutilities.h"
+
+1624806818 c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\scale_under_peaks.h
+	<vector>
+
+1624806818 source:c:\users\wtelam\documents\piquant_gitlab_v3_jan2021\piquant\src\scale_under_peaks.cpp
+	<vector>
+	<math.h>
+	"scale_under_peaks.h"
+

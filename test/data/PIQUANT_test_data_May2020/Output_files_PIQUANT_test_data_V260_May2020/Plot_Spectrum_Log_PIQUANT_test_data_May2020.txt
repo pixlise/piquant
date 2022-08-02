@@ -1,0 +1,24 @@
+
+
+------------------------------------------------------
+PIQUANT_GUI  Log file entry   Local time: 2020-05-14 11:35:52.326819
+Command line arguments: ['C:\\Users\\Tim\\Documents\\PIQUANT_V260_Windows_Mar2020\\PIQUANT_CommandLine.exe', 'plot', 'C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Calibration_box_BHVO-2G_28kV_230uA_03_28_2019_bulk_sum.msa', 'C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Output_files_PIQUANT_test_data_May2020/Plot_Spectrum_Plot_PIQUANT_test_data_May2020.csv', 'C:\\Users\\Tim\\AppData\\Local\\Temp\\tmpn181cvf2', '-e,4.0740,10.0126']
+-----------------------------------------------------------------
+PIQUANT   Quantitative X-ray Fluorescence Analysis
+Written for PIXL, the Planetary Instrument for X-ray Lithochemistry
+2.6.310-compiling   W. T. Elam   APL/UW
+Local time:  2020-05-14 11:35:52
+
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Calibration_box_BHVO-2G_28kV_230uA_03_28_2019_bulk_sum.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 13973.40    energy calibration   eV start = -15.3  eV/ch = 10.0449    total counts = 118401344
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Using energy calibration from option argument    eV start = 4.1  eV/ch = 10.0126
+
+
+Writing plot to file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Output_files_PIQUANT_test_data_May2020/Plot_Spectrum_Plot_PIQUANT_test_data_May2020.csv      4096 channels.
+
+Execution finished,   Duration  0.0930 secs. 
+
+

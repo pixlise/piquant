@@ -1,0 +1,83 @@
+
+
+------------------------------------------------------
+PIQUANT_GUI  Log file entry   Local time: 2020-05-14 11:46:14.159464
+Command line arguments: ['C:\\Users\\Tim\\Documents\\PIQUANT_V260_Windows_Mar2020\\PIQUANT_CommandLine.exe', 'fits', 'C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Breadboard_Configuration_2019_01_14_2020.msa', 'C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Standards_Input_3_glasses_new_BB_01_08_2020.csv', 'Ar_I', 'C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Output_files_PIQUANT_test_data_May2020/Fit_one_standard_with_plot_Plot_PIQUANT_test_data_May2020.csv', 'C:\\Users\\Tim\\AppData\\Local\\Temp\\tmpy7y_i5y4']
+-----------------------------------------------------------------
+PIQUANT   Quantitative X-ray Fluorescence Analysis
+Written for PIXL, the Planetary Instrument for X-ray Lithochemistry
+2.6.310-compiling   W. T. Elam   APL/UW
+Local time:  2020-05-14 11:46:04
+
+Configuration read from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Breadboard_Configuration_2019_01_14_2020.msa
+
+Reading standard information from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Standards_Input_3_glasses_new_BB_01_08_2020.csv
+Standards file read OK, entries for 3 standards read in.
+
+Element list: Ar_I
+
+Reading spectrum from file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Input_files_PIQUANT_test_data_May2020/Calibration_box_BHVO-2G_28kV_230uA_03_28_2019_bulk_sum.msa
+Spectrum read OK, 1 detector
+Detector 0  live time 13973.40    energy calibration   eV start = -15.3  eV/ch = 10.0449    total counts = 118401344
+Background arguments for multi-region SNIP:  90  10  40  910  2800  14
+Applying linear energy correction at low energy:    offset 11   slope -3  (eV per keV, stops at 3201 ).
+
+
+
+Fit results after 20 iterations, reduced chi sq = 144.70         live time 13973.40 sec.
+Final energy calibration (eV):   eV start = -16.7  eV/ch = 10.0472  detector resolution (eV): 134  (at 5984 eV)  fano = 0.117
+
+XRS L5 requirements info: 
+  L5-XRS-03    total count rate (1.00 keV to 7.25 keV) = 7935 cps (correct energy range)
+  L5-XRS-10    Si intensity = 7591378, Fe intensity = 56457768,   Si/Fe ratio = 0.13
+
+Fitted elements
+      Al    7.1700 %      Al_K   int 935228.4  coeff   0.7675   re_c      0.1%   tot_err      0.1%
+      Ca    8.1800 %      Ca_K   int 25740830.0  coeff   0.9252   re_c      0.0%   tot_err      0.0%
+      Fe    8.3700 %      Fe_K   int 56457768.0  coeff   1.0119   re_c      0.0%   tot_err      0.0%
+       K    0.4300 %       K_K   int 815986.6  coeff   0.8259   re_c      0.1%   tot_err      0.1%
+      Mg    4.3600 %      Mg_K   int 127794.6  coeff   0.5324   re_c      0.3%   tot_err      0.3%
+      Na    1.6200 %      Na_K   int      0.0  coeff  -0.0019   not included
+       P    0.1200 %       P_K   int  44826.6  coeff   0.6874   re_c      0.9%   tot_err      0.9%
+      Si   23.3000 %      Si_K   int 7591378.5  coeff   0.8069   re_c      0.0%   tot_err      0.0%
+      Ti    1.6500 %      Ti_K   int 7249822.5  coeff   0.9468   re_c      0.0%   tot_err      0.0%
+      Ba    0.0100 %      Ba_L   int 177475.3  coeff   7.2616   re_c      1.3%   tot_err      1.3%
+      Cr    0.0300 %      Cr_K   int 212995.1  coeff   1.1228   re_c      0.4%   tot_err      0.4%
+      Ni    0.0100 %      Ni_K   int  71810.3  coeff   1.3875   re_c      1.1%   tot_err      1.1%
+      Sr    0.0400 %      Sr_K   int  23409.8  coeff   1.0872   re_c      1.7%   tot_err      1.7%
+       V    0.0300 %       V_K   int 141274.8  coeff   0.8893   re_c      1.1%   tot_err      1.1%
+      Zn    0.0100 %      Zn_K   int  33279.1  coeff   0.7952   re_c      2.2%   tot_err      2.2%
+      Mn    0.1300 %      Mn_K   int 802233.1  coeff   0.9458   re_c      0.2%   tot_err      0.2%
+      Zr    0.0200 %      Zr_K   int   3377.3  coeff   0.6332   re_c      8.8%   tot_err      8.8%
+Matrix elements
+    O   44.5656 %     (   44.57 % from quantified-element oxides)
+
+    Element sum 100.05 %     energy correction offset -1.42 eV   slope change 0.02 %
+
+Other fit components
+   0      Ar_K  int  90185.9  coeff   7.9036   re_c     0.95%
+   1       bkg  int 15743215.0  coeff   1.0579   re_c     0.03%
+   14      Zr_L  int -14113.6  coeff  -1.6748   not included
+   15      Sr_L  int 188084.5  coeff  15.6840   re_c     0.72%
+   20      Zn_L  int    287.8  coeff   4.7435   re_c    51.83%
+   21      Ba_M  int  -1045.3  coeff -1043.7925   not included
+   23      Ni_L  int   5807.1  coeff 754.7087   re_c     1.55%
+   24      Fe_L  int   2993.9  coeff  11.0208   re_c     2.32%
+   25      Mn_L  int    905.2  coeff 2042.4186   re_c     8.78%
+   26      Cr_L  int    732.6  coeff 121001.4531   re_c    11.00%
+   27       V_L  int      0.0  coeff   1.0000   re_c     0.00%
+   28      Ti_L  int      0.0  coeff   1.0000   re_c     0.00%
+   29       O_K  int    262.0  coeff 270.1044   re_c    13.12%
+   30  Rh_K_coh  int   7032.0  coeff   1.3689   re_c     2.14%
+   31  Rh_L_coh  int 752363.2  coeff   0.4925   re_c     0.42%
+   32  Rh_M_coh  int      0.0  coeff   1.0000   re_c     0.00%
+   33  Rh_K_inc  int  18433.3  coeff   0.8839   re_c     1.88%
+   34  Rh_L_inc  int 573307.6  coeff   7.1291   re_c     0.52%
+   35  Rh_M_inc  int      0.0  coeff   1.0000   re_c     0.00%
+
+
+Writing plot to file C:/Users/Tim/Documents/Data_PIQUANT_test_PIXLISE_Apr2020/Output_files_PIQUANT_test_data_May2020/Fit_one_standard_with_plot_Plot_PIQUANT_test_data_May2020.csv      4096 channels.
+
+Execution finished,   Duration  9.51 secs. 
+
+
