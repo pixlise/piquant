@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/520582671.svg)](https://zenodo.org/badge/latestdoi/520582671)
+
 # PIQUANT - Quantitative X-ray Fluorescence Analysis
 Written for PIXL, the Planetary Instrument for X-ray Lithochemistry"
 
