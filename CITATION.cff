@@ -1,0 +1,87 @@
+cff-version: 1.2.0
+title: PIQUANT X-Ray Fluorescence Quantification Software
+message: >-
+  Cite this repository for the PIQUANT x-ray fluorescence
+  quantification software used by the PIXLISE application
+type: software
+authors:
+  - given-names: W. Timothy
+    family-names: Elam
+    email: wtelam@uw.edu
+    affiliation: University of Washington
+  - given-names: Christopher
+    family-names: Heirwegh
+    email: christopher.m.heirwegh@jpl.nasa.gov
+    affiliation: >-
+      Jet Propulsion Laboratory, California Institute of
+      Technology
+  - given-names: Peter
+    family-names: Nemere
+    email: peter.nemere@qut.edu.au
+    affiliation: Queensland University of Technology
+  - given-names: Ryan
+    family-names: Stonebraker
+    email: ryan.a.stonebraker@jpl.nasa.gov
+    affiliation: >-
+      Jet Propulsion Laboratory, California Institute of
+      Technology
+  - given-names: Adrian
+    family-names: Galvin
+    email: adrian.e.galvin@jpl.nasa.gov
+    affiliation: >-
+      Jet Propulsion Laboratory, California Institute of
+      Technology
+  - given-names: S. Michael
+    family-names: Fedell
+    email: steven.m.fedell@jpl.nasa.gov
+    affiliation: >-
+      Jet Propulsion Laboratory, California Institute of
+      Technology
+  - given-names: Tom
+    family-names: Barber
+    email: tom.barber@jpl.nasa.gov
+    affiliation: >-
+      Jet Propulsion Laboratory, California Institute of
+      Technology
+  - given-names: Scott
+    family-names: Davidoff
+    email: scott.davidoff@jpl.nasa.gov
+    affiliation: >-
+      Jet Propulsion Laboratory, California Institute of
+      Technology
+    orcid: 'https://orcid.org/0000-0002-4417-7268'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.6959125
+    description: >-
+      Zenodo persistent reference to latest version, follow
+      for specific version and release details
+repository-code: 'https://github.com/pixlise/diffraction-peak-detection'
+url: 'https://www.pixlise.org/'
+abstract: >-
+  PIXLISE gives astrobiologists flexible and powerful visual
+  analytics tools to quickly analyze and understand
+  high-density, spatially-localized, imaging and XRF
+  spectroscopy data. A collaboration between scientists,
+  engineers and designers, PIXLISE was born out of Data to
+  Discovery incubation program for science analysis tools,
+  grew as part of JPL's Data Science Program, and elaborated
+  into a robust tool through a multi-year partnership
+  between Queensland University of Technology (QUT) and the
+  Jet Propulsion Laboratory, California Institute of
+  Technology.
+keywords:
+  - astrobiology
+  - geology
+  - geochemistry
+  - petrology
+  - human computer interaction
+  - spectroscopy
+  - x-ray florescence
+  - xrf
+  - imaging spectroscopy
+  - data visualization
+  - visual analytics
+  - mars 2020
+  - perseverance
+license: Apache-2.0
