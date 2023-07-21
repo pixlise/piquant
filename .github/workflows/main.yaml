@@ -1,0 +1,113 @@
+name: Build Piquant Runner
+on:
+  push:
+    branches:
+      - "main"
+
+
+jobs:
+  # Generate Version and Tag
+  version:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      version_tag: ${{ steps.version.outputs.version_tag }}
+      github_sha_short: ${GITHUB_SHA_SHORT}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: GitHub Slug Action
+        uses: rlespinasse/github-slug-action@v4.4.0
+      - name: version
+        uses: paulhatch/semantic-version@v5.0.3
+        id: version
+        with:
+          # The prefix to use to identify tags
+          tag_prefix: 'v'
+          # A string which, if present in a git commit, indicates that a change represents a
+          # major (breaking) change, supports regular expressions wrapped with '/'
+          major_pattern: '(MAJOR)'
+          # Same as above except indicating a minor change, supports regular expressions wrapped with '/'
+          minor_pattern: '(MINOR)'
+          # A string to determine the format of the version output
+          version_format: '${{ inputs.version_format }}'
+
+  build:
+    runs-on: ubuntu-latest
+    needs: [version]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Setup Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: '1.18.0'
+      - name: Print Version
+        run: |
+          echo "BUILDING VERSION ${{ needs.version.outputs.version }}"
+          echo "Tag name: ${{ needs.version.outputs.version_tag }}"
+      - name: Build Package
+        run: |
+          go env -w GOPRIVATE=github.com/pixlise
+          go build -o build/PiquantRunner -v ./runner/main.go
+          sh ./compile.sh
+
+  test:
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build Test Container
+        run: ./build-test-container.sh
+      - name: Run Test Container
+        run: ./test.sh
+
+  docker:
+    needs: [version, test]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+      # This is used to complete the identity challenge
+      # with sigstore/fulcio when running outside of PRs.
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Print Version
+        run: |
+          echo "BUILDING VERSION ${{ needs.version.outputs.version }}"
+
+      # Login against a Docker registry except on PR
+      # https://github.com/docker/login-action
+      - name: Log into registry ${{ env.REGISTRY }}
+        if: github.event_name != 'pull_request'
+        uses: docker/login-action@v2.1.0
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      # Extract metadata (tags, labels) for Docker
+      # https://github.com/docker/metadata-action
+      - name: Extract Docker metadata
+        id: meta
+        uses: docker/metadata-action@v4.3.0
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: type=raw,value=${{ needs.version.outputs.version }}
+      # Build and push Docker image with Buildx (don't push on PR)
+      # https://github.com/docker/build-push-action
+      - name: Build and push Docker image
+        id: build-and-push
+        uses: docker/build-push-action@v4.0.0
+        with:
+          context: .
+          push: ${{ github.event_name != 'pull_request' }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            VERSION=${{ needs.version.outputs.version }}
+            GITHUB_SHA=${{ needs.version.outputs.github_sha_short }}
