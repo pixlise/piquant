@@ -1,4 +1,5 @@
-FROM python:3.7-slim
+#FROM registry.gitlab.com/pixlise/build-container:latest
+FROM python:3.12-slim
 
 # Any libs required by tester
 RUN pip3 install boto3

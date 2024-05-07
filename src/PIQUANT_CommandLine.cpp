@@ -78,6 +78,7 @@
 #include "parse_arguments.h"
 #include "parse_element_list.h"
 #include "read_spectrum_file.h"
+#include "read_PIXLISE_spectrum.h"
 #include "setupStandardsTXT.h"
 #include "setupStandardsCSV.h"
 #include "Element.h"
@@ -757,23 +758,86 @@ try {
     if( ( cmd == ENERGY_CAL || cmd == PLOT || cmd == QUANTIFY || cmd == COMPARE || cmd == OPTIC_RESPONSE ) && ( ! error ) ) {
         string spectrumPathName( arguments.spectrum_file );
         //      open and read the spectrum file
+        // NOTE: we support not just the traditional spectra reading but also PIXLISE format bin file (with .pmcs file specifying what to read)
         spectrum_vec.clear();
-        result = read_spectrum_file( termOutFile, spectrumPathName, spectrum_vec, condStruct_spec );
-        if ( result != 0 ) {
-            //  Error message already sent in read_spectrum_file
-            error = true;
-        };
-        if( cmd != ENERGY_CAL ) {
-            //  Set up energy calibration, background parameters, and measurement conditions
-            setup_spectrum_parameters( arguments, configSpectrum.calibration(), spectrum_vec,
-                    condStruct_config, condStruct_spec, termOutFile );
+
+        string map_spec_file = spectrumPathName;
+        string map_spec_file_name;
+        string map_spec_file_path;
+        /*bool path_found =*/ extract_path( map_spec_file, map_spec_file_path, map_spec_file_name );
+
+        // First, check if it's a pmcs file
+        if(check_file_extension(map_spec_file_name, "PMCS")) {
+            ifstream map_file_pmc_list;
+            string pixlise_file_name;
+            string pmc_list_file_name = map_spec_file;
+
+            map_file_pmc_list.open( pmc_list_file_name.c_str(), ios::in );
+            if( !map_file_pmc_list ) {
+                termOutFile << "Can't open list of PMCs to process from file " << pmc_list_file_name << endl;
+                error = true;
+            }
+
+            // Got the file open, get the first line, as this should be the name/path of the PIXLISE binary file
+            getline( map_file_pmc_list, map_spec_file );
+
+            if(map_spec_file.length() <= 4 || map_spec_file.substr(map_spec_file.length()-4) != ".bin") {
+                termOutFile << "Did not find PIXLISE binary file name as first line of PMC list file " << pmc_list_file_name << ", read: " << map_spec_file << endl;
+                error = true;
+            } else {
+                // Put the path in front
+                map_spec_file = map_spec_file_path+map_spec_file;
+
+                termOutFile << "Read PIXLISE dataset binary file name: " << map_spec_file << endl;
+            }
+
+            // Read one more line, this should be our list of spectra to do the quant operation on
+            string pmcLine;
+            getline(map_file_pmc_list, pmcLine);
+
+            if(pmcLine.length() <= 0) {
+                termOutFile << "Failed to get list of spectra from pmcs file: " << pmc_list_file_name << endl;
+                error = true;
+            }
+
+            // And that should be it for the file, otherwise we're allowing pmcs files with many lines and only
+            // reading the first one. Better to error out here if it's got more lines that we'd ignore
+            string shouldBeBlank;
+            if(getline(map_file_pmc_list, shouldBeBlank).good() || shouldBeBlank.length() > 0)
+            {
+                termOutFile << "PMCs file contained more than one line of pmc data, which would be ignored by this command: " << pmc_list_file_name << endl;
+                error = true;
+            }
+
+            if(!error)
+            {
+                result = read_PIXLISE_spectrum(termOutFile, map_spec_file, pmcLine, spectrum_vec, condStruct_spec.conditionsVector, condStruct_spec.optic_file_name );
+            }
         }
-        //  Combine the spectrum information from several detectors (or the selected detector) into the variable where they will be used
-//        if( spectrum_vec.size() > 0 ) singleSpectrum = spectrum_vec[0];
-        //      NB: quantCombineSpectra modifies the spectra in the input list to match them to a single energy axis
-        //          for proper plotting
-        result = quantCombineSpectra( spectrum_vec, singleSpectrum, arguments.detector_select );
-        if( result < 0 && ! ( result = -3 && cmd == PLOT ) ) error = true;  //  Ignore can't combine error if only plotting
+        else
+        {
+            result = read_spectrum_file( termOutFile, spectrumPathName, spectrum_vec, condStruct_spec );
+            if ( result != 0 ) {
+                //  Error message already sent in read_spectrum_file
+                error = true;
+            }
+        }
+
+        if(!error)
+        {
+            if( cmd != ENERGY_CAL ) {
+                //  Set up energy calibration, background parameters, and measurement conditions
+                setup_spectrum_parameters( arguments, configSpectrum.calibration(), spectrum_vec,
+                        condStruct_config, condStruct_spec, termOutFile );
+            }
+
+            //  Combine the spectrum information from several detectors (or the selected detector) into the variable where they will be used
+//            if( spectrum_vec.size() > 0 ) singleSpectrum = spectrum_vec[0];
+            //      NB: quantCombineSpectra modifies the spectra in the input list to match them to a single energy axis
+            //          for proper plotting
+            result = quantCombineSpectra( spectrum_vec, singleSpectrum, arguments.detector_select );
+            if( result < 0 && ! ( result = -3 && cmd == PLOT ) ) error = true;  //  Ignore can't combine error if only plotting
+        }
     }   //  if( cmd == ENERGY_CAL || cmd == PLOT || cmd == QUANTIFY )
     if( ( cmd == PLOT || cmd == QUANTIFY || cmd == COMPARE ) && ( ! error ) ) {
         //  Check for bad energy calibration and set to channels if just for plot

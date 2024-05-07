@@ -4,5 +4,5 @@ if [ -n "$(which git)" ];
 then
     GIT_BRANCH_FROM_GIT=$(git rev-parse --abbrev-ref HEAD)
 fi
-
+export MSYS_NO_PATHCONV=1
 docker run --rm -e "GIT_BRANCH_GIT=${GIT_BRANCH_FROM_GIT}" -v "$PWD":/usr/src/PIQUANT -w /usr/src/PIQUANT ghcr.io/pixlise/build-container:golang-1.18-protoc-3.7.1-protobuf-3.11.4-angular-13.1.2-nodejs-16 /bin/bash compile.sh

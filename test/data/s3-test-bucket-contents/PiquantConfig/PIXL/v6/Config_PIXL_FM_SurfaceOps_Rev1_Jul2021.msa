@@ -1,0 +1,60 @@
+#FORMAT      : EMSA/MAS spectral data file
+#VERSION     : TC202v2.0 PIXL
+
+#TITLE       : Configuration file for PIXl FM Elemantal Calibration with PIQUANT   June 11, 2021
+#COMMENT     :    For use with calibration file Calibration_PIXL_FM_SurfaceOps_5minECFs_Jun2021.csv
+#COMMENT     : Copied from configuration file dated   Apr. 8, 2021  File name Config_PIXL_FM_UnityECFs_Apr2021.csv
+#COMMENT     :     Using Teflon spectra from DiodeRework_FM_Thermal_data_Jan2020
+#COMMENT     :         Taken with PIXL FM at various HVMM temperatures on Teflon puck in Thermal Vac target (or cal target?)
+#COMMENT     : Based on configuration file for Elemental Calibration of PIXL Flight Model Sensor Assembly May2019
+#COMMENT     : Changed electron inc angle to 60 deg and takeoff angle to 30 deg, 
+#COMMENT     :       per Moxtek drawing "TSP141119-03 Target Assembly Machined REV B.PDF", from Douglas just now
+#COMMENT     : Changed X-ray tube Be window thickness to 152.4 um per info from Douglas Dawson via Chris Heirwegh
+#COMMENT     : Changed ##MINIMUM_EN from 900 to 810 to match lower end of measured spectrum
+#DATE        : 10-JUL-2021   Date and time this file was last updated
+#TIME        : 13:11
+#OWNER       : PIXL FM
+#NPOINTS     : 0    This should be zero for configuration only files
+#NCOLUMNS    : 1    This must match the number of values in XPERCHAN, OFFSET, LIVETIME, and data columns
+#XUNITS      : eV
+#YUNITS      : COUNTS
+#DATATYPE    : YY     (This would be YY for two
+#COMMENT     : Energy calibration is a compromise between Det A and Det B, from BHVO in el cal (not cal target puck)
+#XPERCHAN    : 7.97442 eV per channel, will be used if the spectrum file is not calibrated
+#OFFSET      : -17.7161 eV of first channel, will be used if the spectrum file is not calibrated
+##MINIMUM_EN : 810	minimum energy in eV to begin fitting
+#SIGNALTYPE  : XRF
+##ANODE      : 45     Atomic number of anode in X-ray tube
+#BEAMKV      : 28.00  X-ray tube voltage in kilovolts
+##TUBEINCANG : 60.00  X-ray tube electron incident angle in degrees
+##TUBETAKEOF : 30.0  X-ray tube takeoff angle in degrees (negative for transmission anode)
+#COMMENT     : 127 um (5 mil) on the tube and 25.4 um (1 mil) at the end of the optic. So, 152.4 um total.
+#COMMENT     : From: Dawson, Douglas E (386D)    Sent: Thursday, May 31, 2018 11:59 AM  To: Heirwegh, Christopher M (3225); Wade, Lawrence A (382A)
+##TUBEWINDOW : 0.1524  X-ray tube Be window thickness in mm
+#EMISSION    : 20     X-ray tube emission current in microamps
+##FILTERZ    : 1  Primary beam filter material - atomic number of metal foil
+##FILTERTH   : 0      Primary beam filter thickness
+#COMMENT     : Optic 8 is new value for PIXL FM from Elemental Calibration data, Apr. 2021 (with unity ECFs and corrected Be window thickness)
+##OPTICFILE  : 8
+#COMMENT     : INCSR adjusted to make ECF average unity during calibration Cal_4glassesScapolite_ChrisHstds_1kppm_Optic7_Nov2020
+##INCSR      : 0.1095   Solid angle from source in steradians (can include normalization for optic file)
+##INCANGLE   : 90.00   Incident angle of primary X-ray beam in degrees (90 is normal incidence)
+#ELEVANGLE   : 70.00   Elevation angle of detector, in degrees (90 is normal to surface)
+#AZIMANGLE   : 180.0   Azimuth angle between incident beam plane and detected beam plane
+#COMMENT     : Geometry is calculated in Beam Geometry Tool to correct for target distance difference from nominal standoff
+##GEOMETRY   : 1.0     Geometric correction factor - must be unity for nominal standoff
+#COMMENT     : Detector solid angle estimated from drawing 20181002 Coord Frames 10464005_A1_PIXL_LYT_20181002_851.pdf
+#SOLIDANGLE  : 0.027283 Solid angle collected by the detector in steradians
+#COMMENT     : SDBEW = Silicon Drift Detector with beryllium window
+#EDSDET      : SDBEW   Type of XRF detector (SDBEW, SIBEW, CDBEW, or GEBEW, for SDD, Si_PIN, CdTe, or Ge)
+#TBEWIND     : 0.0017  Thickness of Be window on detector in cm
+#TACTLYR     : 0.05    Thickness of active layer of detector in cm
+#COMMENT     :    Detector energy resolution from above energy calibration file
+##DETRES     : 155   Detector energy resolution in eV (at 5.9 keV, Mn Ka emission line)
+##ATMOSPHERE : Mars      Atmosphere in X-ray beam path, can be Vac, He, Mars, Earth, Air
+#COMMENT     :    Incident beam path includes optic
+##PATHINCLEN : 10.3     Length of incident beam path in cm
+##PATHEMGLEN : 3.316     Length of emerging beam path in cm
+##WINDOWTYPE : None    Type of window between instrument and specimen (None, B4C, Plastic, Zr, Al, Nylon, or Al2O3)
+##WINDOWTH   : 0.00    Thickness of above window in cm		(0 = No window)
+#LIVETIME    : 1   true live time (corrected for count throughput) - only used for calculations

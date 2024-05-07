@@ -1,0 +1,2 @@
+export MSYS_NO_PATHCONV=1
+docker run --rm -v "$PWD":/usr/src/PIQUANT -w /usr/src/PIQUANT registry.gitlab.com/pixlise/build-container:latest go build -o ./build/PiquantRunner -v ./runner/main.go ./runner/cloudwatch-logger.go

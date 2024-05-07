@@ -143,7 +143,6 @@ const int read_spectrum_file( std::ostream &termOutFile, const std::string &spec
         }
     } else if ( check_file_extension( spectrumPathName, "MSA" ) ) {
         //      open and read the ISO 22029 2012 EMSA format file
-        vector <XraySpectrum> spectrum_vec;
         string acq_date, acq_time, x_label, y_label, unit;
         result = read_EMSA_PIXL( spectrumPathName, condStruct_spec, spectra );
         if ( result != 0 ) {
