@@ -11,9 +11,9 @@ echo "Generating protobuf file"
 echo ""
 
 mkdir -p ./src/data-formats/
-cd ./data-formats
-protoc --cpp_out="../src/data-formats" experiment.proto
-cd ..
+cd ./data-formats/file-formats
+protoc --cpp_out="../../src/data-formats" experiment.proto
+cd ../..
 
 echo ""
 echo "--------------------------------"

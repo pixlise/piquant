@@ -72,29 +72,29 @@ def run_piquant(testSelf, cmdlist):
     return [logfile, stdout, stderr]
 
 
-def compare_outputs(testSelf, out_file, expected_file, outputLogs):
+def compare_outputs(testSelf, out_file, expected_file, outputLogs, skipStartRows=0):
     exppath = './test-data/expected-output/{}'.format(expected_file)
 
-    compare_outputs_exppath(testSelf, out_file, exppath, outputLogs)
+    compare_outputs_exppath(testSelf, out_file, exppath, outputLogs, skipStartRows)
 
 
-def compare_outputs_exppath(testSelf, out_file, exppath, outputLogs):
+def compare_outputs_exppath(testSelf, out_file, exppath, outputLogs, skipStartRows=0):
     outpath = make_output_path(out_file)
 
     # Pull in files, sort rows alphabetically, then diff the 2 lists
     with(open(outpath)) as f:
-        outfile_lines = sorted(f.readlines())
+        outfile_lines = sorted(f.readlines()[skipStartRows:])
     with(open(exppath)) as f:
-        expfile_lines = sorted(f.readlines())
+        expfile_lines = sorted(f.readlines()[skipStartRows:])
 
     # Now loop through them
     equal = True
     for c in range(len(outfile_lines)):
         if outfile_lines[c] != expfile_lines[c]:
             equal = False
-            print('\n\nFOUND NON-MATCHING LINES:')
-            print('Output:   '+outfile_lines[c])
-            print('Expected: '+expfile_lines[c]+'\n')
+            print('\n\nFOUND NON-MATCHING LINES ['+str(c)+']:')
+            print('Output:   "'+outfile_lines[c]+'"')
+            print('Expected: "'+expfile_lines[c]+'"\n')
             break
 
     if not equal:

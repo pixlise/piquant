@@ -14,6 +14,7 @@ then
     GIT_BRANCH_FROM_GIT=$(git rev-parse --abbrev-ref HEAD)
 fi
 
+export MSYS_NO_PATHCONV=1
 CONTAINER=piquant-tester
 
 if test -z "$AWS_DEFAULT_REGION"

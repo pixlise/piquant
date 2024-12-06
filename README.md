@@ -1,5 +1,3 @@
-[![DOI](https://zenodo.org/badge/520582671.svg)](https://zenodo.org/badge/latestdoi/520582671)
-
 # PIQUANT - Quantitative X-ray Fluorescence Analysis
 Written for PIXL, the Planetary Instrument for X-ray Lithochemistry"
 
@@ -8,7 +6,8 @@ Written for PIXL, the Planetary Instrument for X-ray Lithochemistry"
 - `data-formats` - Git sub-module containing protobuf descriptions to generate serialization code from.
 - `doc` - Documentation/notes.
 - `src` - Piquant C++ source code.
-- `test` - Test scripts and data required to test Piquant. Includes config files, spectrum data and expected output.
+- `test-data` - Data required to test Piquant. Includes config files, spectrum data and expected output.
+- `.github` - See description below.
 - `CMakeLists.txt` - CMake file to build Piquant. See description below.
 - `version.h.in` - Template for `version.h` that gets created during build process. See CMake description below.
 
@@ -29,9 +28,12 @@ of our repositories. You shouldn't have to interact with it directly, as we have
 already run things in that docker container, but for reference, it comes from the `build-container` repository.
 
 ## Testing Piquant
-1. Run `./build-test-container.sh` once to make sure tests can run. If you change code/test data, this does not
+1. Set up your AWS credentials so you can run tests, which need to interact with AWS S3. You'll need an AWS key and
+secret, so you can put them in a credentials file, normally located in $HOME/.aws/credentials. This file is pulled
+into the piquant runner docker container when running tests.
+2. Run `./build-test-container.sh` once to make sure tests can run. If you change code/test data, this does not
 need to be re-run. NOTE: if you change code, don't forget to run `./local-compile.sh` to update the executable used inside the test container!
-2. Run `./test.sh`
+3. Run `./test.sh`
 
 This script:
 - Builds a docker container to run piquant. It includes python 3 so the piquant-executing script can be run
@@ -41,6 +43,22 @@ Output result files are then read back and compared to expected output files in 
 ### Running a specific test
 Modify python3 unittest call in `./test/code/runtests.sh` to specify the test file name, eg: `python3 -m unittest -v test_piquant.py`
 
+## Running Piquant
+Piquant is a C++ program, but to execute it in docker in AWS, and using config/MSA from AWS S3, we have
+a PiquantRunner executable included in its docker container. This downloads the required files for
+Piquant and puts them wher ethey are needed. The runner is written in Go and also needs to be compiled.
+
+## Compiling PiquantRunner
+This is a small program written in Go (www.golang.org) and also needs to be compiled by running
+`local-runner-compile.sh`.
+
+To run its unit tests, run `local-runner-test.sh`.
+
+## Github Actions
+`.github/` contains the github actions required to build/test Piquant. It basically runs the above
+described `compile.sh` and `test.sh` but with some extra commands around it to allow docker-in-docker to
+work and to help speed up builds by caching the built docker container for next time.
+
 ## Versioning of Piquant
 When Piquant is built, the version number in the line containing `project()` in `CMakeLists.txt` is used
 to generate `build/version.h` which is built into Piquant.
@@ -48,8 +66,8 @@ to generate `build/version.h` which is built into Piquant.
 The git branch the compilation is done from is also required. `CMakeLists.txt` obtains this from the
 environment variable `GIT_BRANCH_ENV`. If this is empty/doesn't exist, it tries `GIT_BRANCH_GIT`.
 
-The reason for having 2 environment variables is due to needing to build both locally and in gitlab CI, and
-there being different possibility to execute git commands to read the current branch (in gitlab CI, the env
+The reason for having 2 environment variables is due to needing to build both locally and in github actions, and
+there being different possibility to execute git commands to read the current branch (in github actions, the env
 variable is the more dependable solution).
 
 Running `Piquant version` will output the version and git branch it came from, for example: `3.2.1-branch`

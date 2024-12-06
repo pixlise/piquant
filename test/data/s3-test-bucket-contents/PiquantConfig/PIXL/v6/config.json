@@ -1,0 +1,7 @@
+{
+    "description": "PIXL configuration",
+    "config-file": "Config_PIXL_FM_SurfaceOps_Rev1_Jul2021.msa",
+    "optic-efficiency": "",
+    "calibration-file": "Calibration_PIXL_FM_SurfaceOps_5minECFs_Rev1_Jul2021.csv",
+    "standards-file": ""
+}
