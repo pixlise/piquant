@@ -106,7 +106,7 @@ int read_XIA_PIXL ( const std::string spectrumFileName, XraySpectrum &spectrum_d
             if ( sValue.length()<=0 ) {
                 return -999999;
             };
-            if ( sValue.find( "ProSpect") < 0 or sValue.find( "ProSpect") >= sValue.length() ) {
+            if ( sValue.find( "ProSpect") < 0 || sValue.find( "ProSpect") >= sValue.length() ) {
                 return -999999;
             };
 
