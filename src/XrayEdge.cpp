@@ -1443,7 +1443,7 @@ const int XrayEdge::EDGE_OCCUPANCIES[MAXZ*(MAXINDEX+1)] = {
  2,  2,  2,  4,  2,  2,  4,  4,  6,  2,  2,  4,  4,  6,  6,  8,  2,  2,  4,  4,  6,  6,  6,  2,  2,  4,  0,  2, 	//	Fm 100
 		};
 
-//		Taken from F.ÊBiggs, L.ÊMendelsohn, and J.ÊMann, At. Data and Nucl. Data Tables Vol. 16, pp201-309 (1975).
+//		Taken from F.ï¿½Biggs, L.ï¿½Mendelsohn, and J.ï¿½Mann, At. Data and Nucl. Data Tables Vol. 16, pp201-309 (1975).
 	const float XrayEdge::EDGE_JZEROS[MAXZ*(MAXINDEX+1)] = {
 0.84900, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 	//	H 1
 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000,

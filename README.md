@@ -23,6 +23,13 @@ all the build tools pre-installed. The compile script:
 - Runs CMake to generate a make file for Piquant
 - Finally, compiles piquant (using make) into an executable for linux to /build/Piquant
 
+## To compile Piquant as a Windows 11 executable
+1. Install Visual Studio Build Tools: winget install Microsoft.VisualStudio.2022.BuildTools --force --override "--wait --passive --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows11SDK.22621"
+2. Install CMake from https://cmake.org/download/
+3. Compile Piquant by running `.\compile.bat`
+
+This should compile PIQUANT and place the executable in .\build\Release\Piquant.exe
+
 ## Build Container
 This is a docker container that is part of the project which contains all the required build tools to build any
 of our repositories. You shouldn't have to interact with it directly, as we have "local" versions of scripts that
