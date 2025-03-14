@@ -26,9 +26,9 @@ all the build tools pre-installed. The compile script:
 ## To compile Piquant as a Windows 11 executable
 1. Install Visual Studio Build Tools: winget install Microsoft.VisualStudio.2022.BuildTools --force --override "--wait --passive --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows11SDK.22621"
 2. Install CMake from https://cmake.org/download/
-3. Compile Piquant by running `.\compile.bat`
-
-This should compile PIQUANT and place the executable in .\build\Release\Piquant.exe
+3. Click Start and navigate to "Developer Command Prompt for VS 2022". Click on this and you should find a command prompt window in the path: `C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools>`
+4. Change to directory containing this repository then compile Piquant by running `.\compile.bat`
+This should compile PIQUANT and place the executable in `.\build\Release\Piquant.exe`
 
 ## Build Container
 This is a docker container that is part of the project which contains all the required build tools to build any
